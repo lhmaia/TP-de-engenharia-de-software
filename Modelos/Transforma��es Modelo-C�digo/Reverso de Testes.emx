@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/1" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_rBzNAKxREd2slsvxCiihDQ/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.2/Umlnotation" xsi:schemaLocation="http:///schemas/Default/1 pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default? http:///schemas/JavaTransformation50/_rBzNAKxREd2slsvxCiihDQ/27 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_rBzNAaxREd2slsvxCiihDQ?JavaTransformation5.0/JavaTransformation50?">
+  <uml:Package xmi:id="_ZE_O0BsCEd69u6n7fqsKkg" name="Reverso de Testes">
+    <eAnnotations xmi:id="_ZE_O0RsCEd69u6n7fqsKkg" source="uml2.diagrams" references="_ZE_O0hsCEd69u6n7fqsKkg">
+      <contents xmi:type="notation:Diagram" xmi:id="_ZE_O0hsCEd69u6n7fqsKkg" type="Freeform" name="Main">
+        <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_ZE_O0xsCEd69u6n7fqsKkg"/>
+      </contents>
+    </eAnnotations>
+    <packageImport xmi:id="_ZE_O1BsCEd69u6n7fqsKkg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_v6ow6BsCEd69u6n7fqsKkg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oSEAgBsDEd69u6n7fqsKkg" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oSEAgRsDEd69u6n7fqsKkg" name="uhackers">
+        <packagedElement xmi:type="uml:Package" xmi:id="_oSEAghsDEd69u6n7fqsKkg" name="merci">
+          <packagedElement xmi:type="uml:Package" xmi:id="_oSEAgxsDEd69u6n7fqsKkg" name="teste">
+            <packagedElement xmi:type="uml:Package" xmi:id="_IanWVB0-Ed6v1tO29_CCag" name="caixapreta">
+              <packagedElement xmi:type="uml:Package" xmi:id="_LDvUtR0-Ed6v1tO29_CCag" name="administração">
+                <packagedElement xmi:type="uml:Package" xmi:id="_LDvUth0-Ed6v1tO29_CCag" name="usuário">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_LDvUtx0-Ed6v1tO29_CCag" name="ConstantesDeGestãoDeUsuários" visibility="package" isLeaf="true">
+                    <ownedComment xmi:id="_LDvUuB0-Ed6v1tO29_CCag" annotatedElement="_LDvUtx0-Ed6v1tO29_CCag">
+                      <body>Interface&amp;nbsp;com&amp;nbsp;constantes&amp;nbsp;de&amp;nbsp;uso&amp;nbsp;geral&amp;nbsp;dos&amp;nbsp;testes&amp;nbsp;de&amp;nbsp;Gestão&amp;nbsp;de&amp;nbsp;Usuários.&lt;br>&lt;br>@author&amp;nbsp;Guilherme&amp;nbsp;Ockham&lt;br>@since&amp;nbsp;$Date:&amp;nbsp;2009-03-30&amp;nbsp;11:38:34&amp;nbsp;-0300&amp;nbsp;(seg,&amp;nbsp;30&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&lt;br>@version&amp;nbsp;E1&amp;nbsp;$Revision:&amp;nbsp;445&amp;nbsp;$&amp;nbsp;</body>
+                    </ownedComment>
+                    <generalization xmi:id="_LEe7mB0-Ed6v1tO29_CCag">
+                      <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ConstantesDeGestãoDeCadastro%5Bjcu%5Ename=ConstantesDeGestãoDeCadastro.java%5Bjpack%5Ename=praxis.base.teste.caixapreta.cadastro%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                    </generalization>
+                    <ownedAttribute xmi:id="_LECPph0-Ed6v1tO29_CCag" name="ITEM_DE_CARDÁPIO_USUÁRIOS" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEMAoB0-Ed6v1tO29_CCag" annotatedElement="_LECPph0-Ed6v1tO29_CCag">
+                        <body>Item&amp;nbsp;de&amp;nbsp;cardápio&amp;nbsp;que&amp;nbsp;invoca&amp;nbsp;a&amp;nbsp;função&amp;nbsp;de&amp;nbsp;Gestão&amp;nbsp;de&amp;nbsp;Usuários.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LECPpx0-Ed6v1tO29_CCag" value="Gestão->Usuários"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEMAoh0-Ed6v1tO29_CCag" name="TELA_DE_GESTÃO" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEMApB0-Ed6v1tO29_CCag" annotatedElement="_LEMAoh0-Ed6v1tO29_CCag">
+                        <body>Título&amp;nbsp;da&amp;nbsp;Tela&amp;nbsp;de&amp;nbsp;Gestão&amp;nbsp;de&amp;nbsp;Itens.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LEMAox0-Ed6v1tO29_CCag" value="Tela de Usuários"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEMAph0-Ed6v1tO29_CCag" name="TELA_DE_EDIÇÃO" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEMAqB0-Ed6v1tO29_CCag" annotatedElement="_LEMAph0-Ed6v1tO29_CCag">
+                        <body>Título&amp;nbsp;da&amp;nbsp;Tela&amp;nbsp;de&amp;nbsp;Edição&amp;nbsp;de&amp;nbsp;Item.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LEMApx0-Ed6v1tO29_CCag" value="Tela de Edição de Usuário"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEMAqh0-Ed6v1tO29_CCag" name="REQUISITO_DE_DESEMPENHO_PARA_PESQUISAS" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEMArB0-Ed6v1tO29_CCag" annotatedElement="_LEMAqh0-Ed6v1tO29_CCag">
+                        <body>Requisito&amp;nbsp;de&amp;nbsp;desempenho&amp;nbsp;especificado&amp;nbsp;para&amp;nbsp;tempo&amp;nbsp;de&amp;nbsp;pesquisa&amp;nbsp;em&amp;nbsp;tabelas.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_LEMAqx0-Ed6v1tO29_CCag" value="10000"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEMArh0-Ed6v1tO29_CCag" name="GRUPOS_DISPONÍVEIS" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEVxox0-Ed6v1tO29_CCag" annotatedElement="_LEMArh0-Ed6v1tO29_CCag">
+                        <body>Arranjo&amp;nbsp;com&amp;nbsp;os&amp;nbsp;nomes&amp;nbsp;dos&amp;nbsp;grupos&amp;nbsp;disponíveis.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LEMArx0-Ed6v1tO29_CCag" value="*"/>
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LEVxoB0-Ed6v1tO29_CCag"/>
+                      <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_LEVxoh0-Ed6v1tO29_CCag">
+                        <language></language>
+                        <body>{&quot;Gerente&quot;,&quot;Gestor de Compras&quot;,&quot;Gestor de Estoque&quot;,&quot;Caixeiro&quot;}</body>
+                      </defaultValue>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEVxpR0-Ed6v1tO29_CCag" name="NOME_DA_CHAVE" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEVxpx0-Ed6v1tO29_CCag" annotatedElement="_LEVxpR0-Ed6v1tO29_CCag">
+                        <body>Nome&amp;nbsp;da&amp;nbsp;chave&amp;nbsp;de&amp;nbsp;pesquisa.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LEVxph0-Ed6v1tO29_CCag" value="Login"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEVxqR0-Ed6v1tO29_CCag" name="RÓTULO_LOGIN" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEVxqx0-Ed6v1tO29_CCag" annotatedElement="_LEVxqR0-Ed6v1tO29_CCag">
+                        <body>Rótulo&amp;nbsp;que&amp;nbsp;precede&amp;nbsp;o&amp;nbsp;campo&amp;nbsp;Login.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LEVxqh0-Ed6v1tO29_CCag" value="Login"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEVxrR0-Ed6v1tO29_CCag" name="RÓTULO_NOME" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEVxrx0-Ed6v1tO29_CCag" annotatedElement="_LEVxrR0-Ed6v1tO29_CCag">
+                        <body>Rótulo&amp;nbsp;que&amp;nbsp;precede&amp;nbsp;o&amp;nbsp;campo&amp;nbsp;Nome.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LEVxrh0-Ed6v1tO29_CCag" value="Nome"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LEe7kR0-Ed6v1tO29_CCag" name="RÓTULO_SENHA" visibility="package" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LEe7kx0-Ed6v1tO29_CCag" annotatedElement="_LEe7kR0-Ed6v1tO29_CCag">
+                        <body>Rótulo&amp;nbsp;que&amp;nbsp;precede&amp;nbsp;o&amp;nbsp;campo&amp;nbsp;Senha.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      <defaultValue xmi:type="uml:LiteralString" xmi:id="_LEe7kh0-Ed6v1tO29_CCag" value="Senha"/>
+                    </ownedAttribute>
+                    <ownedOperation xmi:id="_LEe7lR0-Ed6v1tO29_CCag" name="ConstantesDeGestãoDeUsuários" visibility="private">
+                      <ownedComment xmi:id="_LEe7lh0-Ed6v1tO29_CCag" annotatedElement="_LEe7lR0-Ed6v1tO29_CCag">
+                        <body>Construtor&amp;nbsp;privado&amp;nbsp;recomendado&amp;nbsp;para&amp;nbsp;classes&amp;nbsp;utilitárias.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_LD5FsB0-Ed6v1tO29_CCag" name="TesteGestãoDeUsuários" clientDependency="_LHUNIR0-Ed6v1tO29_CCag">
+                    <ownedComment xmi:id="_LD5FsR0-Ed6v1tO29_CCag" annotatedElement="_LD5FsB0-Ed6v1tO29_CCag">
+                      <body>Teste&amp;nbsp;de&amp;nbsp;caixa&amp;nbsp;preta&amp;nbsp;da&amp;nbsp;colaboração&amp;nbsp;Gestão&amp;nbsp;de&amp;nbsp;Usuários.&lt;br>&lt;br>@author&amp;nbsp;&lt;!--&amp;nbsp;$Author:&amp;nbsp;Wilson&amp;nbsp;$&amp;nbsp;-->&lt;br>@since&amp;nbsp;&lt;!--&amp;nbsp;$Date:&amp;nbsp;2009-03-27&amp;nbsp;14:51:24&amp;nbsp;-0300&amp;nbsp;(sex,&amp;nbsp;27&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&amp;nbsp;-->&lt;br>@version&amp;nbsp;&lt;!--&amp;nbsp;$Rev:&amp;nbsp;411&amp;nbsp;$&amp;nbsp;&amp;nbsp;--></body>
+                    </ownedComment>
+                    <generalization xmi:id="_LHUNIB0-Ed6v1tO29_CCag">
+                      <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TesteGestãoDeCadastro%5Bjcu%5Ename=TesteGestãoDeCadastro.java%5Bjpack%5Ename=praxis.base.teste.caixapreta.cadastro%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                    </generalization>
+                    <ownedAttribute xmi:id="_LHBSMB0-Ed6v1tO29_CCag" name="TESTE_COMPLETO" visibility="private" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_LHBSMh0-Ed6v1tO29_CCag" annotatedElement="_LHBSMB0-Ed6v1tO29_CCag">
+                        <body>Indicador&amp;nbsp;de&amp;nbsp;que&amp;nbsp;a&amp;nbsp;execução&amp;nbsp;do&amp;nbsp;teste&amp;nbsp;deve&amp;nbsp;ser&amp;nbsp;completa.&amp;nbsp;Caso&amp;nbsp;contrário,&amp;nbsp;&lt;br>não&amp;nbsp;inclui&amp;nbsp;os&amp;nbsp;casos&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;inválidos.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_LHBSMR0-Ed6v1tO29_CCag" value="true"/>
+                    </ownedAttribute>
+                    <ownedOperation xmi:id="_LHBSNB0-Ed6v1tO29_CCag" name="TesteGestãoDeUsuários" visibility="public">
+                      <ownedComment xmi:id="_LHBSNR0-Ed6v1tO29_CCag" annotatedElement="_LHBSNB0-Ed6v1tO29_CCag">
+                        <body>Construtor&amp;nbsp;padrão.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LHKcIB0-Ed6v1tO29_CCag" name="executarCasosDeTeste" visibility="protected" isLeaf="true">
+                      <ownedComment xmi:id="_LHKcIR0-Ed6v1tO29_CCag" annotatedElement="_LHKcIB0-Ed6v1tO29_CCag">
+                        <body>Executa&amp;nbsp;os&amp;nbsp;casos&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;deste&amp;nbsp;teste.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LHKcIx0-Ed6v1tO29_CCag" name="obterNomeDoItemDeCardápio" visibility="protected">
+                      <ownedComment xmi:id="_LHKcJB0-Ed6v1tO29_CCag" annotatedElement="_LHKcIx0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;do&amp;nbsp;item&amp;nbsp;de&amp;nbsp;cardápio&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;do&amp;nbsp;item&amp;nbsp;de&amp;nbsp;cardápio&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LHKcJh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LHKcJx0-Ed6v1tO29_CCag" name="obterNomeDaTelaDeGestão" visibility="protected">
+                      <ownedComment xmi:id="_LHKcKB0-Ed6v1tO29_CCag" annotatedElement="_LHKcJx0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;gestão&amp;nbsp;de&amp;nbsp;itens&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;gestão&amp;nbsp;de&amp;nbsp;itens&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LHKcKh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LHKcKx0-Ed6v1tO29_CCag" name="obterNomeDaTelaDeEdição" visibility="protected">
+                      <ownedComment xmi:id="_LHKcLB0-Ed6v1tO29_CCag" annotatedElement="_LHKcKx0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;edição&amp;nbsp;de&amp;nbsp;item&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;edição&amp;nbsp;de&amp;nbsp;item&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LHKcLh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LHKcLx0-Ed6v1tO29_CCag" name="obterNomeDaChave" visibility="protected">
+                      <ownedComment xmi:id="_LHKcMB0-Ed6v1tO29_CCag" annotatedElement="_LHKcLx0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;chave&amp;nbsp;de&amp;nbsp;pesquisa&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;chave&amp;nbsp;de&amp;nbsp;pesquisa&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LHKcMh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_LECPoB0-Ed6v1tO29_CCag" name="TesteRecuperaçãoDeUsuários" clientDependency="_LJ2jxB0-Ed6v1tO29_CCag">
+                    <ownedComment xmi:id="_LECPoR0-Ed6v1tO29_CCag" annotatedElement="_LECPoB0-Ed6v1tO29_CCag">
+                      <body>Teste&amp;nbsp;de&amp;nbsp;sanidade&amp;nbsp;dos&amp;nbsp;testes&amp;nbsp;de&amp;nbsp;caixa&amp;nbsp;preta.&lt;br>&lt;br>@author&amp;nbsp;Guilherme&amp;nbsp;Ockham&lt;br>@since&amp;nbsp;$Date:&amp;nbsp;2009-03-30&amp;nbsp;11:38:34&amp;nbsp;-0300&amp;nbsp;(seg,&amp;nbsp;30&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&lt;br>@version&amp;nbsp;E1&amp;nbsp;$Revision:&amp;nbsp;445&amp;nbsp;$&amp;nbsp;</body>
+                    </ownedComment>
+                    <generalization xmi:id="_LJ2jwx0-Ed6v1tO29_CCag">
+                      <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TesteGestãoDeCadastro%5Bjcu%5Ename=TesteGestãoDeCadastro.java%5Bjpack%5Ename=praxis.base.teste.caixapreta.cadastro%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                    </generalization>
+                    <ownedOperation xmi:id="_LJjBwB0-Ed6v1tO29_CCag" name="TesteRecuperaçãoDeUsuários" visibility="public">
+                      <ownedComment xmi:id="_LJsywB0-Ed6v1tO29_CCag" annotatedElement="_LJjBwB0-Ed6v1tO29_CCag">
+                        <body>Construtor&amp;nbsp;padrão.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LJsywh0-Ed6v1tO29_CCag" name="executarCasosDeTeste" visibility="protected" isLeaf="true">
+                      <ownedComment xmi:id="_LJsywx0-Ed6v1tO29_CCag" annotatedElement="_LJsywh0-Ed6v1tO29_CCag">
+                        <body>Executa&amp;nbsp;os&amp;nbsp;casos&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;deste&amp;nbsp;teste.</body>
+                      </ownedComment>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LJsyxR0-Ed6v1tO29_CCag" name="obterNomeDoItemDeCardápio" visibility="protected">
+                      <ownedComment xmi:id="_LJsyxh0-Ed6v1tO29_CCag" annotatedElement="_LJsyxR0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;do&amp;nbsp;item&amp;nbsp;de&amp;nbsp;cardápio&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;do&amp;nbsp;item&amp;nbsp;de&amp;nbsp;cardápio&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LJsyyB0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LJsyyR0-Ed6v1tO29_CCag" name="obterNomeDaTelaDeGestão" visibility="protected">
+                      <ownedComment xmi:id="_LJsyyh0-Ed6v1tO29_CCag" annotatedElement="_LJsyyR0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;gestão&amp;nbsp;de&amp;nbsp;itens&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;gestão&amp;nbsp;de&amp;nbsp;itens&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LJsyzB0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LJsyzR0-Ed6v1tO29_CCag" name="obterNomeDaTelaDeEdição" visibility="protected">
+                      <ownedComment xmi:id="_LJsyzh0-Ed6v1tO29_CCag" annotatedElement="_LJsyzR0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;edição&amp;nbsp;de&amp;nbsp;item&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;tela&amp;nbsp;de&amp;nbsp;edição&amp;nbsp;de&amp;nbsp;item&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LJsy0B0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LJsy0R0-Ed6v1tO29_CCag" name="obterNomeDaChave" visibility="protected">
+                      <ownedComment xmi:id="_LJ2jwB0-Ed6v1tO29_CCag" annotatedElement="_LJsy0R0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;chave&amp;nbsp;de&amp;nbsp;pesquisa&amp;nbsp;correspondente.&lt;br>&lt;br>@return&amp;nbsp;nome&amp;nbsp;da&amp;nbsp;chave&amp;nbsp;de&amp;nbsp;pesquisa&amp;nbsp;correspondent</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LJ2jwh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_LECPox0-Ed6v1tO29_CCag" name="ConferenteDeGestãoDeUsuários" visibility="package" clientDependency="_LMYTWx0-Ed6v1tO29_CCag">
+                    <ownedComment xmi:id="_LECPpB0-Ed6v1tO29_CCag" annotatedElement="_LECPox0-Ed6v1tO29_CCag">
+                      <body>Conferente&amp;nbsp;de&amp;nbsp;Gestão&amp;nbsp;de&amp;nbsp;Usuários.&lt;br>&lt;br>@author&amp;nbsp;Guilherme&amp;nbsp;Ockham&lt;br>@since&amp;nbsp;$Date:&amp;nbsp;2009-03-30&amp;nbsp;11:38:34&amp;nbsp;-0300&amp;nbsp;(seg,&amp;nbsp;30&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&lt;br>@version&amp;nbsp;E1&amp;nbsp;$Revision:&amp;nbsp;445&amp;nbsp;$&amp;nbsp;</body>
+                    </ownedComment>
+                    <generalization xmi:id="_LMYTWh0-Ed6v1tO29_CCag">
+                      <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ConferenteDeGestãoDeCadastro%5Bjcu%5Ename=ConferenteDeGestãoDeCadastro.java%5Bjpack%5Ename=praxis.base.teste.caixapreta.cadastro%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                    </generalization>
+                    <ownedAttribute xmi:id="_LMPJYB0-Ed6v1tO29_CCag" name="script" visibility="private" isStatic="true">
+                      <ownedComment xmi:id="_LMPJYh0-Ed6v1tO29_CCag" annotatedElement="_LMPJYB0-Ed6v1tO29_CCag">
+                        <body>Instância&amp;nbsp;de&amp;nbsp;PraxisTestScript,&amp;nbsp;usada&amp;nbsp;para&amp;nbsp;geração&amp;nbsp;de&amp;nbsp;pontos&amp;nbsp;de&amp;nbsp;verificação.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=PraxisTestScript%5Bjcu%5Ename=PraxisTestScript.java%5Bjpack%5Ename=praxis.base%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                      <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_LMPJYR0-Ed6v1tO29_CCag">
+                        <language></language>
+                        <body>PraxisTestScript.instância()</body>
+                      </defaultValue>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_LMPJZB0-Ed6v1tO29_CCag" name="inspetorDeEdição" visibility="private">
+                      <ownedComment xmi:id="_LMPJZR0-Ed6v1tO29_CCag" annotatedElement="_LMPJZB0-Ed6v1tO29_CCag">
+                        <body>Inspetor&amp;nbsp;da&amp;nbsp;Tela&amp;nbsp;de&amp;nbsp;Edição&amp;nbsp;de&amp;nbsp;Item.</body>
+                      </ownedComment>
+                    </ownedAttribute>
+                    <ownedOperation xmi:id="_LMPJZx0-Ed6v1tO29_CCag" name="ConferenteDeGestãoDeUsuários" visibility="package">
+                      <ownedComment xmi:id="_LMPJaB0-Ed6v1tO29_CCag" annotatedElement="_LMPJZx0-Ed6v1tO29_CCag">
+                        <body>Construtor&amp;nbsp;padrão.&lt;br>&lt;br>@param&amp;nbsp;inspetorDeEdição&amp;nbsp;inspetor&amp;nbsp;de&amp;nbsp;edição&amp;nbsp;a&amp;nbsp;ser&amp;nbsp;usado</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LMPJah0-Ed6v1tO29_CCag" name="inspetorDeEdição">
+                        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=InspetorDaTelaDeEdiçãoDeUsuário%5Bjcu%5Ename=InspetorDaTelaDeEdiçãoDeUsuário.java%5Bjpack%5Ename=com.uhackers.merci.teste.caixapreta.administração.usuário%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LMPJax0-Ed6v1tO29_CCag" name="conferirEstadoInicialDosCampos" visibility="protected">
+                      <ownedComment xmi:id="_LMPJbB0-Ed6v1tO29_CCag" annotatedElement="_LMPJax0-Ed6v1tO29_CCag">
+                        <body>Na&amp;nbsp;Tela&amp;nbsp;de&amp;nbsp;Edição&amp;nbsp;de&amp;nbsp;Item,&amp;nbsp;confere&amp;nbsp;o&amp;nbsp;estado&amp;nbsp;INICIAL&amp;nbsp;dos&amp;nbsp;campos.&lt;br>&lt;br>@param&amp;nbsp;itemNovo&amp;nbsp;&lt;code>true&lt;/code>&amp;nbsp;se&amp;nbsp;o&amp;nbsp;item&amp;nbsp;sob&amp;nbsp;edição&amp;nbsp;for&amp;nbsp;novo</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LMYTUB0-Ed6v1tO29_CCag" name="itemNovo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LMYTUR0-Ed6v1tO29_CCag" name="conferirCampos" visibility="protected">
+                      <ownedComment xmi:id="_LMYTUh0-Ed6v1tO29_CCag" annotatedElement="_LMYTUR0-Ed6v1tO29_CCag">
+                        <body>Confere&amp;nbsp;os&amp;nbsp;campos&amp;nbsp;de&amp;nbsp;um&amp;nbsp;item&amp;nbsp;cadastrado,&amp;nbsp;na&amp;nbsp;Tela&amp;nbsp;de&amp;nbsp;Edição&amp;nbsp;de&amp;nbsp;Item.&lt;br>&lt;br>@param&amp;nbsp;entidadeEsperada&amp;nbsp;entidade&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;que&amp;nbsp;contém&amp;nbsp;os&amp;nbsp;campos&amp;nbsp;esperados</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LMYTVB0-Ed6v1tO29_CCag" name="entidadeEsperada">
+                        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=EntidadeDeTeste%5Bjcu%5Ename=EntidadeDeTeste.java%5Bjpack%5Ename=praxis.base.teste.comum%5Bjsrcroot%5Esrcfolder=test%5Bproject%5Eid=Praxis.Código%5D%5D%5D%5D$uml.Class"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_LMYTVR0-Ed6v1tO29_CCag" name="conferirGrupo" visibility="private">
+                      <ownedComment xmi:id="_LMYTVh0-Ed6v1tO29_CCag" annotatedElement="_LMYTVR0-Ed6v1tO29_CCag">
+                        <body>Confere&amp;nbsp;os&amp;nbsp;grupos&amp;nbsp;de&amp;nbsp;um&amp;nbsp;Usuário&amp;nbsp;na&amp;nbsp;Tela&amp;nbsp;de&amp;nbsp;Edição.&lt;br>&lt;br>@param&amp;nbsp;gruposEsperados&amp;nbsp;texto&amp;nbsp;com&amp;nbsp;os&amp;nbsp;nomes&amp;nbsp;dos&amp;nbsp;grupos&amp;nbsp;esperados&lt;br>@param&amp;nbsp;nomeDoGrupo&amp;nbsp;nome&amp;nbsp;do&amp;nbsp;grupo&amp;nbsp;conferido</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_LMYTWB0-Ed6v1tO29_CCag" name="gruposEsperados">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_LMYTWR0-Ed6v1tO29_CCag" name="nomeDoGrupo">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Usage" xmi:id="_LHUNIR0-Ed6v1tO29_CCag" supplier="_LDvUtx0-Ed6v1tO29_CCag" client="_LD5FsB0-Ed6v1tO29_CCag"/>
+                  <packagedElement xmi:type="uml:Usage" xmi:id="_LJ2jxB0-Ed6v1tO29_CCag" supplier="_LDvUtx0-Ed6v1tO29_CCag" client="_LECPoB0-Ed6v1tO29_CCag"/>
+                  <packagedElement xmi:type="uml:Usage" xmi:id="_LMYTWx0-Ed6v1tO29_CCag" supplier="_LDvUtx0-Ed6v1tO29_CCag" client="_LECPox0-Ed6v1tO29_CCag"/>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_IanWVR0-Ed6v1tO29_CCag" name="principal">
+                <packagedElement xmi:type="uml:Class" xmi:id="_IanWVh0-Ed6v1tO29_CCag" name="InspetorDaTelaPrincipalDoProduto">
+                  <ownedComment xmi:id="_IanWVx0-Ed6v1tO29_CCag" annotatedElement="_IanWVh0-Ed6v1tO29_CCag">
+                    <body>Inspetor&amp;nbsp;da&amp;nbsp;Tela&amp;nbsp;Principal&amp;nbsp;do&amp;nbsp;produto.&lt;br>&lt;br>@author&amp;nbsp;Guilherme&amp;nbsp;Ockham&lt;br>@since&amp;nbsp;$Date:&amp;nbsp;2009-03-30&amp;nbsp;11:38:34&amp;nbsp;-0300&amp;nbsp;(seg,&amp;nbsp;30&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&lt;br>@version&amp;nbsp;E1&amp;nbsp;$Revision:&amp;nbsp;445&amp;nbsp;$&amp;nbsp;</body>
+                  </ownedComment>
+                  <generalization xmi:id="_IdS25B0-Ed6v1tO29_CCag">
+                    <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=InspetorDaTelaPrincipal%5Bjcu%5Ename=InspetorDaTelaPrincipal.java%5Bjpack%5Ename=praxis.base.teste.caixapreta.principal%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                  </generalization>
+                  <ownedAttribute xmi:id="_Ic_78B0-Ed6v1tO29_CCag" name="script" visibility="private" isStatic="true">
+                    <ownedComment xmi:id="_IdJF4R0-Ed6v1tO29_CCag" annotatedElement="_Ic_78B0-Ed6v1tO29_CCag">
+                      <body>Instância&amp;nbsp;de&amp;nbsp;PraxisTestScript,&amp;nbsp;usada&amp;nbsp;para&amp;nbsp;geração&amp;nbsp;de&amp;nbsp;pontos&amp;nbsp;de&amp;nbsp;verificação.</body>
+                    </ownedComment>
+                    <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=PraxisTestScript%5Bjcu%5Ename=PraxisTestScript.java%5Bjpack%5Ename=praxis.base%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                    <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_IdJF4B0-Ed6v1tO29_CCag">
+                      <language></language>
+                      <body>PraxisTestScript.instância()</body>
+                    </defaultValue>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_IdJF4x0-Ed6v1tO29_CCag" name="TÍTULO" visibility="private" isLeaf="true" isStatic="true">
+                    <ownedComment xmi:id="_IdJF5R0-Ed6v1tO29_CCag" annotatedElement="_IdJF4x0-Ed6v1tO29_CCag">
+                      <body>Nome&amp;nbsp;do&amp;nbsp;produto,&amp;nbsp;que&amp;nbsp;serve&amp;nbsp;de&amp;nbsp;prefixo&amp;nbsp;do&amp;nbsp;título&amp;nbsp;da&amp;nbsp;Tela&amp;nbsp;Principal.</body>
+                    </ownedComment>
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <defaultValue xmi:type="uml:LiteralString" xmi:id="_IdJF5B0-Ed6v1tO29_CCag" value="Merci 1.5 - Tela Principal"/>
+                  </ownedAttribute>
+                  <ownedAttribute xmi:id="_IdJF5x0-Ed6v1tO29_CCag" name="telaPrincipal" visibility="private">
+                    <ownedComment xmi:id="_IdJF6B0-Ed6v1tO29_CCag" annotatedElement="_IdJF5x0-Ed6v1tO29_CCag">
+                      <body>Instância&amp;nbsp;inspecionada&amp;nbsp;de&amp;nbsp;Tela&amp;nbsp;Principal.</body>
+                    </ownedComment>
+                    <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=com.rational.test.ft.object.interfaces.TestObject%5Bproject%5Eid=Testes%5D$uml.Class"/>
+                  </ownedAttribute>
+                  <ownedOperation xmi:id="_IdJF6h0-Ed6v1tO29_CCag" name="InspetorDaTelaPrincipalDoProduto" visibility="public">
+                    <ownedComment xmi:id="_IdJF6x0-Ed6v1tO29_CCag" annotatedElement="_IdJF6h0-Ed6v1tO29_CCag">
+                      <body>Construtor&amp;nbsp;padrão.</body>
+                    </ownedComment>
+                  </ownedOperation>
+                  <ownedOperation xmi:id="_IdS24B0-Ed6v1tO29_CCag" name="acionarFunção" visibility="public" isLeaf="true">
+                    <ownedComment xmi:id="_IdS24R0-Ed6v1tO29_CCag" annotatedElement="_IdS24B0-Ed6v1tO29_CCag">
+                      <body>Aciona&amp;nbsp;a&amp;nbsp;função&amp;nbsp;desejada,&amp;nbsp;no&amp;nbsp;cardápio&amp;nbsp;da&amp;nbsp;Tela&amp;nbsp;Principal.&lt;br />&#xD;
+&lt;br /></body>
+                    </ownedComment>
+                    <ownedParameter xmi:id="_IdS24x0-Ed6v1tO29_CCag" name="nomeDaFunção">
+                      <ownedComment xmi:id="__8khEB0_Ed6v1tO29_CCag" annotatedElement="_IdS24x0-Ed6v1tO29_CCag">
+                        <body>nome&amp;nbsp;qualificado&amp;nbsp;da&amp;nbsp;função&amp;nbsp;a&amp;nbsp;ser&amp;nbsp;acionadada</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    </ownedParameter>
+                  </ownedOperation>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_AnbG1B0-Ed6v1tO29_CCag" name="comum">
+              <packagedElement xmi:type="uml:Package" xmi:id="_AnbG1R0-Ed6v1tO29_CCag" name="administração">
+                <packagedElement xmi:type="uml:Package" xmi:id="_AnbG1h0-Ed6v1tO29_CCag" name="usuário">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_F2GyNx0-Ed6v1tO29_CCag" name="UsuárioDeTeste">
+                    <ownedComment xmi:id="_F2GyOB0-Ed6v1tO29_CCag" annotatedElement="_F2GyNx0-Ed6v1tO29_CCag">
+                      <body>Entidade&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;que&amp;nbsp;representa&amp;nbsp;um&amp;nbsp;usuário.&lt;br>&lt;br>@author&amp;nbsp;Guilherme&amp;nbsp;Ockham&lt;br>@since&amp;nbsp;$Date:&amp;nbsp;2009-03-30&amp;nbsp;11:38:34&amp;nbsp;-0300&amp;nbsp;(seg,&amp;nbsp;30&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&lt;br>@version&amp;nbsp;E1&amp;nbsp;$Revision:&amp;nbsp;445&amp;nbsp;$&amp;nbsp;</body>
+                    </ownedComment>
+                    <generalization xmi:id="_F5FNtx0-Ed6v1tO29_CCag">
+                      <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=EntidadeDeTeste%5Bjcu%5Ename=EntidadeDeTeste.java%5Bjpack%5Ename=praxis.base.teste.comum%5Bjsrcroot%5Esrcfolder=test%5Bproject%5Eid=Praxis.Código%5D%5D%5D%5D$uml.Class"/>
+                    </generalization>
+                    <ownedAttribute xmi:id="_F4ohwB0-Ed6v1tO29_CCag" name="POSIÇÃO_LOGIN" visibility="private" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_F4ySwR0-Ed6v1tO29_CCag" annotatedElement="_F4ohwB0-Ed6v1tO29_CCag">
+                        <body>Posição&amp;nbsp;no&amp;nbsp;item&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Login.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_F4ySwB0-Ed6v1tO29_CCag" value="1"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_F4ySwx0-Ed6v1tO29_CCag" name="POSIÇÃO_NOME" visibility="private" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_F4ySxR0-Ed6v1tO29_CCag" annotatedElement="_F4ySwx0-Ed6v1tO29_CCag">
+                        <body>Posição&amp;nbsp;no&amp;nbsp;item&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Nome.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_F4ySxB0-Ed6v1tO29_CCag" value="2"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_F4ySxx0-Ed6v1tO29_CCag" name="POSIÇÃO_SENHA" visibility="private" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_F4ySyR0-Ed6v1tO29_CCag" annotatedElement="_F4ySxx0-Ed6v1tO29_CCag">
+                        <body>Posição&amp;nbsp;no&amp;nbsp;item&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Senha.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_F4ySyB0-Ed6v1tO29_CCag" value="3"/>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:id="_F4ySyx0-Ed6v1tO29_CCag" name="POSIÇÃO_GRUPOS" visibility="private" isLeaf="true" isStatic="true">
+                      <ownedComment xmi:id="_F48DwR0-Ed6v1tO29_CCag" annotatedElement="_F4ySyx0-Ed6v1tO29_CCag">
+                        <body>Posição&amp;nbsp;no&amp;nbsp;item&amp;nbsp;de&amp;nbsp;teste&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Grupos.</body>
+                      </ownedComment>
+                      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_F48DwB0-Ed6v1tO29_CCag" value="4"/>
+                    </ownedAttribute>
+                    <ownedOperation xmi:id="_F48Dwx0-Ed6v1tO29_CCag" name="UsuárioDeTeste" visibility="public">
+                      <ownedComment xmi:id="_F48DxB0-Ed6v1tO29_CCag" annotatedElement="_F48Dwx0-Ed6v1tO29_CCag">
+                        <body>Construtor&amp;nbsp;padrão,&amp;nbsp;com&amp;nbsp;atribuição&amp;nbsp;dos&amp;nbsp;campos&amp;nbsp;do&amp;nbsp;item.&lt;br>&lt;br>@param&amp;nbsp;campos&amp;nbsp;arranjo&amp;nbsp;com&amp;nbsp;os&amp;nbsp;campos&amp;nbsp;em&amp;nbsp;forma&amp;nbsp;de&amp;nbsp;texto</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_F48Dxh0-Ed6v1tO29_CCag" name="campos">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F48Dxx0-Ed6v1tO29_CCag" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F48DyB0-Ed6v1tO29_CCag"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_F48Dyh0-Ed6v1tO29_CCag" name="obterCampoLogin" visibility="public" isLeaf="true">
+                      <ownedComment xmi:id="_F48Dyx0-Ed6v1tO29_CCag" annotatedElement="_F48Dyh0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;o&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Login.&lt;br>&lt;br>@return&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Login</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_F48DzR0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_F48Dzh0-Ed6v1tO29_CCag" name="obterCampoNome" visibility="public" isLeaf="true">
+                      <ownedComment xmi:id="_F48Dzx0-Ed6v1tO29_CCag" annotatedElement="_F48Dzh0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;o&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Nome.&lt;br>&lt;br>@return&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Nome</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_F48D0R0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_F48D0h0-Ed6v1tO29_CCag" name="obterCampoSenha" visibility="public" isLeaf="true">
+                      <ownedComment xmi:id="_F5FNsB0-Ed6v1tO29_CCag" annotatedElement="_F48D0h0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;o&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Senha.&lt;br>&lt;br>@return&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Senha</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_F5FNsh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_F5FNsx0-Ed6v1tO29_CCag" name="obterCampoGrupos" visibility="public" isLeaf="true">
+                      <ownedComment xmi:id="_F5FNtB0-Ed6v1tO29_CCag" annotatedElement="_F5FNsx0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;o&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Grupos.&lt;br>&lt;br>@return&amp;nbsp;texto&amp;nbsp;do&amp;nbsp;campo&amp;nbsp;Grupos</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_F5FNth0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_AnbG1x0-Ed6v1tO29_CCag" name="FábricaDeUsuáriosDeTeste">
+                    <ownedComment xmi:id="_AnbG2B0-Ed6v1tO29_CCag" annotatedElement="_AnbG1x0-Ed6v1tO29_CCag">
+                      <body>Fábrica&amp;nbsp;de&amp;nbsp;usuários&amp;nbsp;de&amp;nbsp;teste.&lt;br>&lt;br>@author&amp;nbsp;Guilherme&amp;nbsp;Ockham&lt;br>@since&amp;nbsp;$Date:&amp;nbsp;2009-03-30&amp;nbsp;11:38:34&amp;nbsp;-0300&amp;nbsp;(seg,&amp;nbsp;30&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&lt;br>@version&amp;nbsp;E1&amp;nbsp;$Revision:&amp;nbsp;445&amp;nbsp;$&amp;nbsp;</body>
+                    </ownedComment>
+                    <generalization xmi:id="_AonZqx0-Ed6v1tO29_CCag">
+                      <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=FábricaDeEntidadesDeTeste%5Bjcu%5Ename=FábricaDeEntidadesDeTeste.java%5Bjpack%5Ename=praxis.base.teste.comum%5Bjsrcroot%5Esrcfolder=test%5Bproject%5Eid=Praxis.Código%5D%5D%5D%5D$uml.Class"/>
+                    </generalization>
+                    <ownedOperation xmi:id="_AoUesB0-Ed6v1tO29_CCag" name="obterEntidadeDeTeste" visibility="public" isLeaf="true">
+                      <ownedComment xmi:id="_AoUesR0-Ed6v1tO29_CCag" annotatedElement="_AoUesB0-Ed6v1tO29_CCag">
+                        <body>Devolve&amp;nbsp;um&amp;nbsp;usuário&amp;nbsp;de&amp;nbsp;teste,&amp;nbsp;dado&amp;nbsp;seu&amp;nbsp;identificador.&lt;br>&lt;br>@param&amp;nbsp;identificador&amp;nbsp;identificador&amp;nbsp;do&amp;nbsp;item&amp;nbsp;de&amp;nbsp;teste&lt;br>@return&amp;nbsp;item&amp;nbsp;de&amp;nbsp;teste</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_AoUesx0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=UsuárioDeTeste%5Bjcu%5Ename=UsuárioDeTeste.java%5Bjpack%5Ename=com.uhackers.merci.teste.comum.administração.usuário%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:id="_AoUetB0-Ed6v1tO29_CCag" name="identificador">
+                        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_AonZoB0-Ed6v1tO29_CCag" name="construirDescritoresCadastrados" visibility="public" isLeaf="true">
+                      <ownedComment xmi:id="_AonZoR0-Ed6v1tO29_CCag" annotatedElement="_AonZoB0-Ed6v1tO29_CCag">
+                        <body>Constrói&amp;nbsp;descritores&amp;nbsp;cadastrados,&amp;nbsp;conforme&amp;nbsp;especificação&amp;nbsp;das&amp;nbsp;entidades&amp;nbsp;de&lt;br>teste.&lt;br>&lt;br>@return&amp;nbsp;arranjo&amp;nbsp;com&amp;nbsp;descritores&amp;nbsp;cadastrados</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_AonZox0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Descritor%5Bjcu%5Ename=Descritor.java%5Bjpack%5Ename=praxis.base.entidade%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Praxis.Código%5D%5D%5D%5D$uml.Class"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AonZpB0-Ed6v1tO29_CCag" value="*"/>
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AonZpR0-Ed6v1tO29_CCag"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:id="_AonZpx0-Ed6v1tO29_CCag" name="obterProtótipo" visibility="public">
+                      <ownedComment xmi:id="_AonZqB0-Ed6v1tO29_CCag" annotatedElement="_AonZpx0-Ed6v1tO29_CCag">
+                        <body>Método&amp;nbsp;artifical&amp;nbsp;para&amp;nbsp;compatibilidade&amp;nbsp;com&amp;nbsp;testes&amp;nbsp;de&amp;nbsp;caixa&amp;nbsp;cinza.&lt;br>&lt;br>@return&amp;nbsp;apontador&amp;nbsp;nulo</body>
+                      </ownedComment>
+                      <ownedParameter xmi:id="_AonZqh0-Ed6v1tO29_CCag" name="ReturnParameter" direction="return">
+                        <type xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=EntidadePersistente%5Bjcu%5Ename=EntidadePersistente.java%5Bjpack%5Ename=praxis.base.entidade%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=Praxis.Código%5D%5D%5D%5D$uml.Class"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_oSEAhBsDEd69u6n7fqsKkg" name="TesteSanidade">
+              <ownedComment xmi:id="_oSEAhRsDEd69u6n7fqsKkg" annotatedElement="_oSEAhBsDEd69u6n7fqsKkg">
+                <body>Script&amp;nbsp;para&amp;nbsp;teste&amp;nbsp;de&amp;nbsp;sanidade.&lt;br>&lt;br>@author&amp;nbsp;&lt;!--$Author:-->&amp;nbsp;Wilson&amp;nbsp;&lt;!--$-->&lt;br>@since&amp;nbsp;&lt;!--$Date:-->&amp;nbsp;2008-01-30&amp;nbsp;14:16:25&amp;nbsp;-0200&amp;nbsp;(qua,&amp;nbsp;30&amp;nbsp;jan&amp;nbsp;2008)&amp;nbsp;&lt;!--$-->&lt;br>@version&amp;nbsp;&lt;!--$Revisiion:-->&amp;nbsp;864&amp;nbsp;&lt;!--$--></body>
+              </ownedComment>
+              <generalization xmi:id="_oekyiRsDEd69u6n7fqsKkg">
+                <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TesteSanidadeHelper%5Bjcu%5Ename=TesteSanidadeHelper.java%5Bjpack%5Ename=resources.com.uhackers.merci.teste%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+              </generalization>
+              <ownedOperation xmi:id="_oekygBsDEd69u6n7fqsKkg" name="testMain" visibility="public">
+                <ownedComment xmi:id="_oekygRsDEd69u6n7fqsKkg" annotatedElement="_oekygBsDEd69u6n7fqsKkg">
+                  <body>Método&amp;nbsp;principal,&amp;nbsp;que&amp;nbsp;invoca&amp;nbsp;o&amp;nbsp;script&amp;nbsp;do&amp;nbsp;caso&amp;nbsp;de&amp;nbsp;uso&amp;nbsp;a&amp;nbsp;testar.&lt;br>&lt;br>@param&amp;nbsp;args&amp;nbsp;argumentos&amp;nbsp;do&amp;nbsp;teste</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_oekygxsDEd69u6n7fqsKkg" name="args">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oekyhBsDEd69u6n7fqsKkg" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oekyhRsDEd69u6n7fqsKkg"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_ocDC8BsDEd69u6n7fqsKkg" name="TesteUsuários">
+              <ownedComment xmi:id="_ocDC8RsDEd69u6n7fqsKkg" annotatedElement="_ocDC8BsDEd69u6n7fqsKkg">
+                <body>Script&amp;nbsp;para&amp;nbsp;teste&amp;nbsp;da&amp;nbsp;Função&amp;nbsp;Gestão&amp;nbsp;de&amp;nbsp;Usuários.&lt;br>&lt;br>@author&amp;nbsp;&lt;!--&amp;nbsp;$Author:&amp;nbsp;Wilson&amp;nbsp;$&amp;nbsp;-->&lt;br>@since&amp;nbsp;&lt;!--&amp;nbsp;$Date:&amp;nbsp;2009-03-26&amp;nbsp;16:00:46&amp;nbsp;-0300&amp;nbsp;(qui,&amp;nbsp;26&amp;nbsp;mar&amp;nbsp;2009)&amp;nbsp;$&amp;nbsp;&amp;nbsp;-->&lt;br>@version&amp;nbsp;&lt;!--&amp;nbsp;$Rev:&amp;nbsp;406&amp;nbsp;$&amp;nbsp;&amp;nbsp;--></body>
+              </ownedComment>
+              <generalization xmi:id="_ohHJJBsDEd69u6n7fqsKkg">
+                <general xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=TesteUsuáriosHelper%5Bjcu%5Ename=TesteUsuáriosHelper.java%5Bjpack%5Ename=resources.com.uhackers.merci.teste%5Bjsrcroot%5Esrcfolder=%5Bproject%5Eid=Testes%5D%5D%5D%5D$uml.Class"/>
+              </generalization>
+              <ownedOperation xmi:id="_og9YIBsDEd69u6n7fqsKkg" name="testMain" visibility="public" isLeaf="true">
+                <ownedComment xmi:id="_og9YIRsDEd69u6n7fqsKkg" annotatedElement="_og9YIBsDEd69u6n7fqsKkg">
+                  <body>Método&amp;nbsp;principal,&amp;nbsp;que&amp;nbsp;invoca&amp;nbsp;o&amp;nbsp;script&amp;nbsp;do&amp;nbsp;caso&amp;nbsp;de&amp;nbsp;uso&amp;nbsp;a&amp;nbsp;testar.&lt;br>&lt;br>@param&amp;nbsp;args&amp;nbsp;&amp;nbsp;argumentos&amp;nbsp;do&amp;nbsp;teste</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ohHJIBsDEd69u6n7fqsKkg" name="args">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ohHJIRsDEd69u6n7fqsKkg" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ohHJIhsDEd69u6n7fqsKkg"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ZE_O1RsCEd69u6n7fqsKkg">
+      <eAnnotations xmi:id="_ZE_O1hsCEd69u6n7fqsKkg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ZE_O1xsCEd69u6n7fqsKkg">
+      <eAnnotations xmi:id="_ZE_O2BsCEd69u6n7fqsKkg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ZE_O2RsCEd69u6n7fqsKkg">
+      <eAnnotations xmi:id="_ZE_O2hsCEd69u6n7fqsKkg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_oekyhhsDEd69u6n7fqsKkg">
+      <eAnnotations xmi:id="_oekyhxsDEd69u6n7fqsKkg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_rBzNAaxREd2slsvxCiihDQ?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
+    </profileApplication>
+  </uml:Package>
+  <Default:Documentation xmi:id="_qIq80BsDEd69u6n7fqsKkg" base_Comment="_og9YIRsDEd69u6n7fqsKkg"/>
+  <Default:Documentation xmi:id="_qIq80RsDEd69u6n7fqsKkg" base_Comment="_ocDC8RsDEd69u6n7fqsKkg"/>
+  <Default:Documentation xmi:id="_qI0t0BsDEd69u6n7fqsKkg" base_Comment="_oekygRsDEd69u6n7fqsKkg"/>
+  <JavaTransformation50:JavaArray xmi:id="_qI0t0RsDEd69u6n7fqsKkg" base_TypedElement="_ohHJIBsDEd69u6n7fqsKkg"/>
+  <JavaTransformation50:JavaArray xmi:id="_qI0t0hsDEd69u6n7fqsKkg" base_TypedElement="_oekygxsDEd69u6n7fqsKkg"/>
+  <Default:Documentation xmi:id="_qI-e0BsDEd69u6n7fqsKkg" base_Comment="_oSEAhRsDEd69u6n7fqsKkg"/>
+  <Default:Documentation xmi:id="_DIWygB0-Ed6v1tO29_CCag" base_Comment="_AnbG2B0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_DIWygR0-Ed6v1tO29_CCag" base_Comment="_AoUesR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_DIgjgB0-Ed6v1tO29_CCag" base_Comment="_AonZqB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_DIgjgR0-Ed6v1tO29_CCag" base_Comment="_AonZoR0-Ed6v1tO29_CCag"/>
+  <JavaTransformation50:JavaArray xmi:id="_DIgjgh0-Ed6v1tO29_CCag" base_TypedElement="_AonZox0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GbzgQB0-Ed6v1tO29_CCag" base_Comment="_F48DxB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GbzgQR0-Ed6v1tO29_CCag" base_Comment="_F5FNtB0-Ed6v1tO29_CCag"/>
+  <JavaTransformation50:JavaArray xmi:id="_GbzgQh0-Ed6v1tO29_CCag" base_TypedElement="_F48Dxh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Gb8qMB0-Ed6v1tO29_CCag" base_Comment="_F4ySwR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Gb8qMR0-Ed6v1tO29_CCag" base_Comment="_F48DwR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Gb8qMh0-Ed6v1tO29_CCag" base_Comment="_F4ySyR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GcGbMB0-Ed6v1tO29_CCag" base_Comment="_F2GyOB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GcGbMR0-Ed6v1tO29_CCag" base_Comment="_F48Dyx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GcQMMB0-Ed6v1tO29_CCag" base_Comment="_F5FNsB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GcQMMR0-Ed6v1tO29_CCag" base_Comment="_F48Dzx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_GcQMMh0-Ed6v1tO29_CCag" base_Comment="_F4ySxR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_I-YKsB0-Ed6v1tO29_CCag" base_Comment="_IdJF6x0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_I-YKsR0-Ed6v1tO29_CCag" base_Comment="_IdJF6B0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_I-YKsh0-Ed6v1tO29_CCag" base_Comment="_IdJF4R0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_I-hUoB0-Ed6v1tO29_CCag" base_Comment="_IdJF5R0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_I-hUoR0-Ed6v1tO29_CCag" base_Comment="_IanWVx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_I-hUoh0-Ed6v1tO29_CCag" base_Comment="_IdS24R0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzRUMB0-Ed6v1tO29_CCag" base_Comment="_LMPJYh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzRUMR0-Ed6v1tO29_CCag" base_Comment="_LHKcLB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzbFMB0-Ed6v1tO29_CCag" base_Comment="_LMPJaB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzbFMR0-Ed6v1tO29_CCag" base_Comment="_LMPJZR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzbFMh0-Ed6v1tO29_CCag" base_Comment="_LEVxqx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Lzk2MB0-Ed6v1tO29_CCag" base_Comment="_LECPpB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Lzk2MR0-Ed6v1tO29_CCag" base_Comment="_LHKcKB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Lzk2Mh0-Ed6v1tO29_CCag" base_Comment="_LECPoR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzuAIB0-Ed6v1tO29_CCag" base_Comment="_LEMArB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_LzuAIR0-Ed6v1tO29_CCag" base_Comment="_LHKcJB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Lz3xIB0-Ed6v1tO29_CCag" base_Comment="_LEMAoB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Lz3xIR0-Ed6v1tO29_CCag" base_Comment="_LJ2jwB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_Lz3xIh0-Ed6v1tO29_CCag" base_Comment="_LMYTVh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0BiIB0-Ed6v1tO29_CCag" base_Comment="_LJsywB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0BiIR0-Ed6v1tO29_CCag" base_Comment="_LHKcIR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0BiIh0-Ed6v1tO29_CCag" base_Comment="_LJsywx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0KsEB0-Ed6v1tO29_CCag" base_Comment="_LJsyzh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0KsER0-Ed6v1tO29_CCag" base_Comment="_LEVxrx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0UdEB0-Ed6v1tO29_CCag" base_Comment="_LMYTUh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0UdER0-Ed6v1tO29_CCag" base_Comment="_LEVxpx0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0UdEh0-Ed6v1tO29_CCag" base_Comment="_LEMApB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0dnAB0-Ed6v1tO29_CCag" base_Comment="_LEe7lh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0dnAR0-Ed6v1tO29_CCag" base_Comment="_LHBSNR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0dnAh0-Ed6v1tO29_CCag" base_Comment="_LHKcMB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0nYAB0-Ed6v1tO29_CCag" base_Comment="_LJsyyh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0nYAR0-Ed6v1tO29_CCag" base_Comment="_LEVxox0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0nYAh0-Ed6v1tO29_CCag" base_Comment="_LDvUuB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0xJAB0-Ed6v1tO29_CCag" base_Comment="_LMPJbB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L0xJAR0-Ed6v1tO29_CCag" base_Comment="_LEe7kx0-Ed6v1tO29_CCag"/>
+  <JavaTransformation50:JavaArray xmi:id="_L0xJAh0-Ed6v1tO29_CCag" base_TypedElement="_LEMArh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L06S8B0-Ed6v1tO29_CCag" base_Comment="_LD5FsR0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L06S8R0-Ed6v1tO29_CCag" base_Comment="_LEMAqB0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L06S8h0-Ed6v1tO29_CCag" base_Comment="_LHBSMh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="_L1ED8B0-Ed6v1tO29_CCag" base_Comment="_LJsyxh0-Ed6v1tO29_CCag"/>
+  <Default:Documentation xmi:id="__8uSEB0_Ed6v1tO29_CCag" base_Comment="__8khEB0_Ed6v1tO29_CCag"/>
+</xmi:XMI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="__1hBgGT2Ed66gZbXT-30yw" name="Mapeador Modelos-Código">
+  <packagedElement xmi:type="uml:Package" xmi:id="__2QoYGT2Ed66gZbXT-30yw" name="Visão de testes">
+    <packagedElement xmi:type="uml:Package" xmi:id="__2tUUGT2Ed66gZbXT-30yw" name="Estrutura">
+      <packagedElement xmi:type="uml:Package" xmi:id="__2tUUWT2Ed66gZbXT-30yw" name="comum">
+        <packagedElement xmi:type="uml:Package" xmi:id="__2tUUmT2Ed66gZbXT-30yw" name="global">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="__2tUU2T2Ed66gZbXT-30yw" name="InspetorDoSistemaFinanceiro" clientDependency="__23FUGT2Ed66gZbXT-30yw" fileName="">
+            <manifestation xmi:id="__23FUGT2Ed66gZbXT-30yw" client="__2tUU2T2Ed66gZbXT-30yw">
+              <supplier xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_3wxGcFUoEd6Gm_5N2rdw2g?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/comum/global/InspetorDoSistemaFinanceiro?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_3wxGcFUoEd6Gm_5N2rdw2g?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/comum/global/InspetorDoSistemaFinanceiro?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_Z5aBMGT3Ed66gZbXT-30yw" name="comum" clientDependency="_Z5aBMWT3Ed66gZbXT-30yw" fileName="com.uhackers.merci.teste.comum">
+        <manifestation xmi:id="_Z5aBMWT3Ed66gZbXT-30yw" client="_Z5aBMGT3Ed66gZbXT-30yw">
+          <supplier xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#__GwxkM2hEdyiCsl3t46Dbw?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/comum?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#__GwxkM2hEdyiCsl3t46Dbw?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/comum?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_VyyhMGdUEd6DT48UekTC3w" name="Visão lógica">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_Vy8SMGdUEd6DT48UekTC3w" name="Estrutura" clientDependency="_Vy8SMWdUEd6DT48UekTC3w" fileName="com.uhackers.merci">
+      <manifestation xmi:id="_Vy8SMWdUEd6DT48UekTC3w" client="_Vy8SMGdUEd6DT48UekTC3w">
+        <supplier xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_3784E4B500283BDFE4E502B2?Merci%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_3784E4B500283BDFE4E502B2?Merci%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura?"/>
+      </manifestation>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="__1hBgWT2Ed66gZbXT-30yw">
+    <eAnnotations xmi:id="__1qygGT2Ed66gZbXT-30yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="__1qygWT2Ed66gZbXT-30yw">
+    <eAnnotations xmi:id="__1qygmT2Ed66gZbXT-30yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="__1qyg2T2Ed66gZbXT-30yw">
+    <eAnnotations xmi:id="__1qyhGT2Ed66gZbXT-30yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Model>

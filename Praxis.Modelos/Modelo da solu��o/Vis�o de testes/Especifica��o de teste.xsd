@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.praxis.org/especificaçãoDeTeste"
+	elementFormDefault="unqualified" attributeFormDefault="unqualified"
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:Q1="http://www.praxis.org/especificaçãoDeTeste">
+
+	<element name="especificaçãoDeTeste">
+        <complexType>
+			<sequence>
+                <element name="título" type="string"></element>
+                <element name="aspectosATestar" maxOccurs="1"
+					minOccurs="1">					<annotation>						<documentation>							Aspectos que devem ser testados.						</documentation>
+					</annotation>					<complexType>						<sequence>							<element name="aspectoATestar"
+								maxOccurs="unbounded" minOccurs="1">
+								<annotation>
+									<documentation>
+										Cada aspecto a testar.
+									</documentation>
+								</annotation>
+								<complexType>
+									<sequence>										<element name="requisito"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Requisito
+													representado pelo
+													aspecto.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="comentário"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Comentários a
+													respeito do aspecto.
+												</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>					</complexType>
+				</element>
+				<element name="abordagens" maxOccurs="1"
+					minOccurs="0">
+					<annotation>
+						<documentation>
+							Abordagens usadas no teste.
+						</documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="abordagem"
+								maxOccurs="unbounded" minOccurs="0">
+								<annotation>
+									<documentation>
+										Cada abordagem usada no teste.
+									</documentation>
+								</annotation>
+								<complexType>
+									<sequence>										<element name="aspecto"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Aspecto considerado
+													na abordagem.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="detalhes"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Detalhes do aspecto
+													da abordagem.
+												</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="critériosDeCompletezaESucesso"
+					maxOccurs="1" minOccurs="1">					<annotation>						<documentation>							Critérios de completeza e sucesso.						</documentation>
+					</annotation>					<complexType>						<sequence>							<element name="critério" type="string"
+								maxOccurs="unbounded" minOccurs="1">
+								<annotation>
+									<documentation>
+										Cada critério de completeza ou
+										sucesso.
+									</documentation>
+								</annotation>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="casosDeTeste" maxOccurs="1"
+					minOccurs="0">
+					<annotation>
+						<documentation>
+							Descritores dos casos de teste que compõem o
+							teste.
+						</documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="casoDeTeste"
+								maxOccurs="unbounded" minOccurs="0">
+								<annotation>
+									<documentation>
+										Cada descritor de caso de teste.
+									</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="identificador"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Identificador único
+													do caso de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="descrição"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Descrição que
+													caracteriza o caso
+													de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="espécie"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Identificador da
+													espécie do caso de
+													teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="entidadeDeTeste"
+											type="string" maxOccurs="1" minOccurs="0">
+											<annotation>
+												<documentation>
+													Identificador da
+													entidade principal do
+													caso de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="entidadesRequeridas"
+											maxOccurs="1" minOccurs="0" type="string">
+											<annotation>
+												<documentation>
+													Identificadores das
+													entidades cuja
+													existência prévia é
+													requerida pelo caso
+													de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="entidadesProibidas"
+											maxOccurs="1" minOccurs="0" type="string">
+											<annotation>
+												<documentation>
+													Identificadores das
+													entidades que não podem
+													existir antes da
+													execução do caso de
+													teste. Entende-se
+													que não possam
+													existir quaisquer
+													entidades com chaves de
+													pesquisa idêntica à
+													das entidades proibidas.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="mensagemEsperada"
+											type="string" maxOccurs="1" minOccurs="0">
+											<annotation>
+												<documentation>
+													Mensagem cuja
+													emissão é esperada
+													após a execução do
+													caso de teste.
+												</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="espéciesDeCasoDeTeste" maxOccurs="1"
+					minOccurs="0">
+					<annotation>
+						<documentation>
+							Espécies de casos de teste que só diferem
+							entre si pelos respectivos itens.
+						</documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="espécie"
+								maxOccurs="unbounded" minOccurs="1">
+								<annotation>
+									<documentation>
+										Cada espécie de caso de teste.
+									</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="título"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Título da espécie de
+													caso de teste
+													representada pelo
+													gabarito.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="identificação"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Identificador único
+													da espécie de caso
+													de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element
+											name="aspectosEspecíficos" type="string" maxOccurs="1"
+											minOccurs="1">
+											<annotation>
+												<documentation>
+													Aspectos específicos
+													a testar na espécie
+													de caso de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="entradas"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Entradas para a
+													espécie de caso de
+													teste.
+												</documentation>
+											</annotation>
+											<complexType>
+												<sequence>
+													<element
+														name="elementoDeDado" type="Q1:ElementoDeDado"
+														maxOccurs="unbounded" minOccurs="0">
+													</element>
+												</sequence>
+											</complexType>
+										</element>
+										<element name="saídasEsperadas"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Saídas esperadas na
+													espécie de caso de
+													teste.
+												</documentation>
+											</annotation>
+											<complexType>
+												<sequence>
+													<element
+														name="elementoDeDado" type="Q1:ElementoDeDado"
+														maxOccurs="unbounded" minOccurs="1">
+													</element>
+												</sequence>
+											</complexType>
+										</element>
+										<element name="ambiente"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Ambiente esperado
+													pela espécie de caso
+													de teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="procedimentos"
+											maxOccurs="1" minOccurs="1" type="string">											<annotation>												<documentation>
+													Procedimentos de
+													teste invocados na
+													espécie de caso de
+													teste.
+												</documentation>
+											</annotation>
+										</element>
+										<element name="dependências"
+											type="string" maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation>
+													Estados ou aspectos
+													do qual depende a
+													espécie de caso de
+													teste.
+												</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="ElementoDeDado">
+		<sequence>
+			<element name="tela" type="string"></element>
+			<element name="campo" type="string"></element>
+			<element name="valor" type="string"></element>
+			<element name="ocorrências" type="string"></element>
+		</sequence>
+	</complexType>
+
+</schema>

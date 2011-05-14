@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="urlInputDialogSettings">
+		<item value="false" key="useWorkspacePath"/>
+		<item value="true" key="isRelative"/>
+		<item value="false" key="isValidateURL"/>
+	</section>
+</section>

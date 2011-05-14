@@ -1,0 +1,7 @@
+#Wed Apr 06 11:52:59 BRT 2011
+remoteHelpPath=/infocenter/rfthelp/v8r1,/infocenter/rsasehlp/v7r5m0,/help
+eclipse.preferences.version=1
+remoteHelpPort=80,80,63650
+remoteHelpName=RFT 8.1 Infocenter,RSA SE Infocenter,Local
+remoteHelpICEnabled=true,true,false
+remoteHelpHost=publib.boulder.ibm.com,publib.boulder.ibm.com,127.0.0.1

@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kzeXQHSUEd-PrZYYt2Wrcw" name="Testes-Modelos">
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_k2Ke4HSUEd-PrZYYt2Wrcw" name="Visão de uso" clientDependency="_k2dZ0HSUEd-PrZYYt2Wrcw">
+    <manifestation xmi:id="_k2dZ0HSUEd-PrZYYt2Wrcw" client="_k2Ke4HSUEd-PrZYYt2Wrcw">
+      <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QSsOMG8nEduQ9YbuArCQHQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso?"/>
+      <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QSsOMG8nEduQ9YbuArCQHQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_k41_cHSUEd-PrZYYt2Wrcw" name="Visão de uso">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_k41_cXSUEd-PrZYYt2Wrcw" name="Realizações" clientDependency="_k41_cnSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_k41_cnSUEd-PrZYYt2Wrcw" client="_k41_cXSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401BB51301F4?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401BB51301F4?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_k70a8HSUEd-PrZYYt2Wrcw" name="Realizações">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_k70a8XSUEd-PrZYYt2Wrcw" name="Cadastro" clientDependency="_k70a8nSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_k70a8nSUEd-PrZYYt2Wrcw" client="_k70a8XSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_k3vBUH5WEduTidBBB6uTHw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações/Cadastro?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_k3vBUH5WEduTidBBB6uTHw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações/Cadastro?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_k_GYcHSUEd-PrZYYt2Wrcw" name="Principal" clientDependency="_k_GYcXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_k_GYcXSUEd-PrZYYt2Wrcw" client="_k_GYcHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_X2MoMH5XEduTidBBB6uTHw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações/Principal?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_X2MoMH5XEduTidBBB6uTHw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações/Principal?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_lBe-EHSUEd-PrZYYt2Wrcw" name="Básicas" clientDependency="_lBe-EXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_lBe-EXSUEd-PrZYYt2Wrcw" client="_lBe-EHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_5EyxAIlNEdu9g5U3-Z9i-w?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações/Básicas?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_5EyxAIlNEdu9g5U3-Z9i-w?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Realizações/Básicas?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_lEBUsHSUEd-PrZYYt2Wrcw" name="Estrutura" clientDependency="_lEBUsXSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_lEBUsXSUEd-PrZYYt2Wrcw" client="_lEBUsHSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283EB6B2E70196?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283EB6B2E70196?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lGjEQHSUEd-PrZYYt2Wrcw" name="Estrutura">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_lGjEQXSUEd-PrZYYt2Wrcw" name="Cadastro" clientDependency="_lGjEQnSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_lGjEQnSUEd-PrZYYt2Wrcw" client="_lGjEQXSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401E763500BB?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401E763500BB?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lI7p4HSUEd-PrZYYt2Wrcw" name="Cadastro">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lI7p4XSUEd-PrZYYt2Wrcw" name="Tela de Edição de Item" clientDependency="_lI7p4nSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lI7p4nSUEd-PrZYYt2Wrcw" client="_lI7p4XSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401E7091004E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Edição%20de%20Item?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401E7091004E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Edição%20de%20Item?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lLeAgHSUEd-PrZYYt2Wrcw" name="Tela de Gestão de Itens" clientDependency="_lLeAgXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lLeAgXSUEd-PrZYYt2Wrcw" client="_lLeAgHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401BB4750167?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Gestão%20de%20Itens?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401BB4750167?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Gestão%20de%20Itens?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lN2mIHSUEd-PrZYYt2Wrcw" name="Tela de Seleção de Item" clientDependency="_lN2mIXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lN2mIXSUEd-PrZYYt2Wrcw" client="_lN2mIHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401FB7FD0222?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Seleção%20de%20Item?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401FB7FD0222?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Seleção%20de%20Item?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lQPLwHSUEd-PrZYYt2Wrcw" name="Tela de Itens" clientDependency="_lQPLwXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lQPLwXSUEd-PrZYYt2Wrcw" client="_lQPLwHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401FB97B0138?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Itens?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401FB97B0138?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Itens?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lSxiYHSUEd-PrZYYt2Wrcw" name="Descritor de Item" clientDependency="_lSxiYXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lSxiYXSUEd-PrZYYt2Wrcw" client="_lSxiYHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401E771E00FA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Descritor%20de%20Item?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401E771E00FA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Descritor%20de%20Item?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lVKIAHSUEd-PrZYYt2Wrcw" name="Painel de Itens" clientDependency="_lVKIAXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lVKIAXSUEd-PrZYYt2Wrcw" client="_lVKIAHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284020F7C300AB?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Painel%20de%20Itens?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284020F7C300AB?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Painel%20de%20Itens?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lXr3kHSUEd-PrZYYt2Wrcw" name="Tela de Edição de Item Mestre" clientDependency="_lXr3kXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lXr3kXSUEd-PrZYYt2Wrcw" client="_lXr3kHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284023E20001C5?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Edição%20de%20Item%20Mestre?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284023E20001C5?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Tela%20de%20Edição%20de%20Item%20Mestre?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_laEdMHSUEd-PrZYYt2Wrcw" name="Item de Lista" clientDependency="_laEdMXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_laEdMXSUEd-PrZYYt2Wrcw" client="_laEdMHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002842F143B3001F?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Item%20de%20Lista?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002842F143B3001F?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Item%20de%20Lista?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lcdC0HSUEd-PrZYYt2Wrcw" name="Item de Lista Editável" clientDependency="_lcdC0XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lcdC0XSUEd-PrZYYt2Wrcw" client="_lcdC0HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_7bKWAK5GEdy4_vqeruyvVw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Item%20de%20Lista%20Editável?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_7bKWAK5GEdy4_vqeruyvVw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Cadastro/Item%20de%20Lista%20Editável?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_le_ZcHSUEd-PrZYYt2Wrcw" name="Principal" clientDependency="_le_ZcXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_le_ZcXSUEd-PrZYYt2Wrcw" client="_le_ZcHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028402277CF01B5?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Principal?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028402277CF01B5?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Principal?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lhhwEHSUEd-PrZYYt2Wrcw" name="Principal">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lhhwEXSUEd-PrZYYt2Wrcw" name="Tela Principal" clientDependency="_lhhwEnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lhhwEnSUEd-PrZYYt2Wrcw" client="_lhhwEXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840210C930280?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Principal/Tela%20Principal?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840210C930280?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Principal/Tela%20Principal?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lkDfoHSUEd-PrZYYt2Wrcw" name="Caixa Sobre" clientDependency="_lkDfoXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lkDfoXSUEd-PrZYYt2Wrcw" client="_lkDfoHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283E7F105E0128?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Principal/Caixa%20Sobre?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283E7F105E0128?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Principal/Caixa%20Sobre?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_lkNQoHSUEd-PrZYYt2Wrcw" name="Básicos" clientDependency="_lkNQoXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_lkNQoXSUEd-PrZYYt2Wrcw" client="_lkNQoHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284024F4C30109?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284024F4C30109?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lmvAMHSUEd-PrZYYt2Wrcw" name="Básicos">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lmvAMXSUEd-PrZYYt2Wrcw" name="Tela" clientDependency="_lmvAMnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lmvAMnSUEd-PrZYYt2Wrcw" client="_lmvAMXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401FB8AB0128?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Tela?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028401FB8AB0128?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Tela?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lpHl0HSUEd-PrZYYt2Wrcw" name="Cardápio" clientDependency="_lpHl0XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lpHl0XSUEd-PrZYYt2Wrcw" client="_lpHl0HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028402112B0030D?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Cardápio?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028402112B0030D?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Cardápio?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lrp8cHSUEd-PrZYYt2Wrcw" name="Caixa de Mensagem" clientDependency="_lrp8cXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lrp8cXSUEd-PrZYYt2Wrcw" client="_lrp8cHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283E7F1B1000DA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Caixa%20de%20Mensagem?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283E7F1B1000DA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Caixa%20de%20Mensagem?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_luCiEHSUEd-PrZYYt2Wrcw" name="Caixa de Mensagem de Confirmação" clientDependency="_luCiEXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_luCiEXSUEd-PrZYYt2Wrcw" client="_luCiEHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284027DB7802EE?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Caixa%20de%20Mensagem%20de%20Confirmação?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284027DB7802EE?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Caixa%20de%20Mensagem%20de%20Confirmação?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_lwk4sHSUEd-PrZYYt2Wrcw" name="Tela de Edição" clientDependency="_lwk4sXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_lwk4sXSUEd-PrZYYt2Wrcw" client="_lwk4sHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002842028CD5002E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Tela%20de%20Edição?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002842028CD5002E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Tela%20de%20Edição?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_ly9eUHSUEd-PrZYYt2Wrcw" name="Caixa de Mensagem Informativa" clientDependency="_ly9eUXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_ly9eUXSUEd-PrZYYt2Wrcw" client="_ly9eUHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_py93MKKIEdyE_YaXyQpRfg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Caixa%20de%20Mensagem%20Informativa?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_py93MKKIEdyE_YaXyQpRfg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Estrutura/Básicos/Caixa%20de%20Mensagem%20Informativa?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_l1WD8HSUEd-PrZYYt2Wrcw" name="Arquitetura" clientDependency="_l1WD8XSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_l1WD8XSUEd-PrZYYt2Wrcw" client="_l1WD8HSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284021530903B9?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284021530903B9?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_l33zgHSUEd-PrZYYt2Wrcw" name="Arquitetura">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_l33zgXSUEd-PrZYYt2Wrcw" name="Tipos" clientDependency="_l33zgnSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_l33zgnSUEd-PrZYYt2Wrcw" client="_l33zgXSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA07B03C8?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA07B03C8?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_l6QZIHSUEd-PrZYYt2Wrcw" name="Tipos">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_l6QZIXSUEd-PrZYYt2Wrcw" name="Campos" clientDependency="_l6QZInSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_l6QZInSUEd-PrZYYt2Wrcw" client="_l6QZIXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCAD90109?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCAD90109?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_l8yvwHSUEd-PrZYYt2Wrcw" name="Campos">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_l8yvwXSUEd-PrZYYt2Wrcw" name="Multivalorados" clientDependency="_l8yvwnSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_l8yvwnSUEd-PrZYYt2Wrcw" client="_l8yvwXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAEF600AB?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAEF600AB?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_l_LVYHSUEd-PrZYYt2Wrcw" name="Multivalorados">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_l_LVYXSUEd-PrZYYt2Wrcw" name="Campo multivalorado" clientDependency="_l_LVYnSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_l_LVYnSUEd-PrZYYt2Wrcw" client="_l_LVYXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAFAA0167?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Campo%20multivalorado?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAFAA0167?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Campo%20multivalorado?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mBtsAHSUEd-PrZYYt2Wrcw" name="Arranjo" clientDependency="_mBtsAXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mBtsAXSUEd-PrZYYt2Wrcw" client="_mBtsAHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA0F200EA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Arranjo?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA0F200EA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Arranjo?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mEGRoHSUEd-PrZYYt2Wrcw" name="Coleção" clientDependency="_mEGRoXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mEGRoXSUEd-PrZYYt2Wrcw" client="_mEGRoHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BB014007D?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Coleção?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BB014007D?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Coleção?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mGoBMHSUEd-PrZYYt2Wrcw" name="Lista" clientDependency="_mGoBMXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mGoBMXSUEd-PrZYYt2Wrcw" client="_mGoBMHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA0CA0232?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Lista?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA0CA0232?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Lista?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mJAm0HSUEd-PrZYYt2Wrcw" name="Conjunto" clientDependency="_mJAm0XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mJAm0XSUEd-PrZYYt2Wrcw" client="_mJAm0HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BB0C7003E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Conjunto?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BB0C7003E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Multivalorados/Conjunto?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_mLZMcHSUEd-PrZYYt2Wrcw" name="Escalares" clientDependency="_mLZMcXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_mLZMcXSUEd-PrZYYt2Wrcw" client="_mLZMcHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAEE60000?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAEE60000?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_mN7jEHSUEd-PrZYYt2Wrcw" name="Escalares">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mN7jEXSUEd-PrZYYt2Wrcw" name="Enumeração" clientDependency="_mN7jEnSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mN7jEnSUEd-PrZYYt2Wrcw" client="_mN7jEXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284147A5E601AA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Enumeração?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284147A5E601AA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Enumeração?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mQUIsHSUEd-PrZYYt2Wrcw" name="Cardápio de opção" clientDependency="_mQUIsXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mQUIsXSUEd-PrZYYt2Wrcw" client="_mQUIsHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002842F0D7B103B9?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Cardápio%20de%20opção?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002842F0D7B103B9?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Cardápio%20de%20opção?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mSsuUHSUEd-PrZYYt2Wrcw" name="Botões de opção" clientDependency="_mS14QHSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mS14QHSUEd-PrZYYt2Wrcw" client="_mSsuUHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284147A62700F9?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Botões%20de%20opção?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284147A62700F9?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Botões%20de%20opção?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mVOd4HSUEd-PrZYYt2Wrcw" name="Campo escalar" clientDependency="_mVOd4XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mVOd4XSUEd-PrZYYt2Wrcw" client="_mVOd4HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAF1D0222?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Campo%20escalar?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAF1D0222?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Campo%20escalar?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mXnDgHSUEd-PrZYYt2Wrcw" name="Texto" clientDependency="_mXnDgXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mXnDgXSUEd-PrZYYt2Wrcw" client="_mXnDgHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA08A000F?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Texto?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA08A000F?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Texto?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_maJaIHSUEd-PrZYYt2Wrcw" name="Linha de texto" clientDependency="_maJaIXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_maJaIXSUEd-PrZYYt2Wrcw" client="_maJaIHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAF6702FD?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Linha%20de%20texto?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAF6702FD?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Linha%20de%20texto?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mch_wHSUEd-PrZYYt2Wrcw" name="Caixa de texto" clientDependency="_mch_wXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mch_wXSUEd-PrZYYt2Wrcw" client="_mch_wHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAF74002E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Caixa%20de%20texto?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAF74002E?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Caixa%20de%20texto?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_me6lYHSUEd-PrZYYt2Wrcw" name="Lógico" clientDependency="_mfEWYHSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mfEWYHSUEd-PrZYYt2Wrcw" client="_me6lYHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAFD60242?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Lógico?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAFD60242?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Lógico?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mhc8AHSUEd-PrZYYt2Wrcw" name="Botão de checar" clientDependency="_mhc8AXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mhc8AXSUEd-PrZYYt2Wrcw" client="_mhc8AHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAFF3034B?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Botão%20de%20checar?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BAFF3034B?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Botão%20de%20checar?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mj1hoHSUEd-PrZYYt2Wrcw" name="Linha de senha" clientDependency="_mj-rkHSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mj-rkHSUEd-PrZYYt2Wrcw" client="_mj1hoHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284005B74801D4?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Linha%20de%20senha?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284005B74801D4?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Linha%20de%20senha?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mmXRMHSUEd-PrZYYt2Wrcw" name="Célula" clientDependency="_mmXRMXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mmXRMXSUEd-PrZYYt2Wrcw" client="_mmXRMHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840240A1302BF?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Célula?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840240A1302BF?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Célula?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mov20HSUEd-PrZYYt2Wrcw" name="Célula seletora" clientDependency="_mov20XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mov20XSUEd-PrZYYt2Wrcw" client="_mov20HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840B222BC0290?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Célula%20seletora?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840B222BC0290?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Célula%20seletora?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_mrb-cHSUEd-PrZYYt2Wrcw" name="Rótulo" clientDependency="_mrb-cXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_mrb-cXSUEd-PrZYYt2Wrcw" client="_mrb-cHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284023DA4A0213?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Rótulo?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284023DA4A0213?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Escalares/Rótulo?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_mt9uAHSUEd-PrZYYt2Wrcw" name="Campo" clientDependency="_mt9uAXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_mt9uAXSUEd-PrZYYt2Wrcw" client="_mt9uAHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA45002AF?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Campo?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BA45002AF?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Campos/Campo?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_mwWToHSUEd-PrZYYt2Wrcw" name="Comandos" clientDependency="_mwWToXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_mwWToXSUEd-PrZYYt2Wrcw" client="_mwWToHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCB19031C?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCB19031C?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_myu5QHSUEd-PrZYYt2Wrcw" name="Comandos">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_myu5QXSUEd-PrZYYt2Wrcw" name="Botão de apertar" clientDependency="_myu5QnSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_myu5QnSUEd-PrZYYt2Wrcw" client="_myu5QXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCB4402CE?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos/Botão%20de%20apertar?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCB4402CE?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos/Botão%20de%20apertar?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_m1RP4HSUEd-PrZYYt2Wrcw" name="Comando" clientDependency="_m1RP4XSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_m1RP4XSUEd-PrZYYt2Wrcw" client="_m1RP4HSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCBC201F4?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos/Comando?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCBC201F4?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos/Comando?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_m3y_cHSUEd-PrZYYt2Wrcw" name="Item de cardápio" clientDependency="_m3y_cXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_m3y_cXSUEd-PrZYYt2Wrcw" client="_m3y_cHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCB58038A?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos/Item%20de%20cardápio?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283F3BCB58038A?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Comandos/Item%20de%20cardápio?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_m6LlEHSUEd-PrZYYt2Wrcw" name="Elemento IU" clientDependency="_m6LlEXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_m6LlEXSUEd-PrZYYt2Wrcw" client="_m6LlEHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_GpDjoHseEdukRNoObaRJpQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Elemento%20IU?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_GpDjoHseEdukRNoObaRJpQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Elemento%20IU?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_m-p1YHSUEd-PrZYYt2Wrcw" name="Componente IU" clientDependency="_m-p1YXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_m-p1YXSUEd-PrZYYt2Wrcw" client="_m-p1YHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_G526kHswEdukRNoObaRJpQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Componente%20IU?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_G526kHswEdukRNoObaRJpQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Componente%20IU?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nBMMAHSUEd-PrZYYt2Wrcw" name="Componente composto IU" clientDependency="_nBMMAXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nBMMAXSUEd-PrZYYt2Wrcw" client="_nBMMAHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_wuaKcKpLEdyW0fCQjx5k-g?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Componente%20composto%20IU?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_wuaKcKpLEdyW0fCQjx5k-g?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Tipos/Componente%20composto%20IU?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_nDkxoHSUEd-PrZYYt2Wrcw" name="Regras" clientDependency="_nDkxoXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_nDkxoXSUEd-PrZYYt2Wrcw" client="_nDkxoHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_C7FfsDuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_C7FfsDuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_nGGhMHSUEd-PrZYYt2Wrcw" name="Regras">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nGGhMXSUEd-PrZYYt2Wrcw" name="Tratamento dos erros do usuário" clientDependency="_nGGhMnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nGGhMnSUEd-PrZYYt2Wrcw" client="_nGGhMXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_VasOkDuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Tratamento%20dos%20erros%20do%20usuário?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_VasOkDuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Tratamento%20dos%20erros%20do%20usuário?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nIfG0HSUEd-PrZYYt2Wrcw" name="Tratamento da ajuda ao usuário" clientDependency="_nIo30HSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nIo30HSUEd-PrZYYt2Wrcw" client="_nIfG0HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ZW0F4DuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Tratamento%20da%20ajuda%20ao%20usuário?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ZW0F4DuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Tratamento%20da%20ajuda%20ao%20usuário?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nLLOcHSUEd-PrZYYt2Wrcw" name="Modelo mental do produto" clientDependency="_nLLOcXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nLLOcXSUEd-PrZYYt2Wrcw" client="_nLLOcHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_dhjA8DuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Modelo%20mental%20do%20produto?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_dhjA8DuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Modelo%20mental%20do%20produto?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nOJp8HSUEd-PrZYYt2Wrcw" name="Convenções gerais" clientDependency="_nOJp8XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nOJp8XSUEd-PrZYYt2Wrcw" client="_nOJp8HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_gm198DuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Convenções%20gerais?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_gm198DuSEdyvF5jD7FjItQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Regras/Convenções%20gerais?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_nQiPkHSUEd-PrZYYt2Wrcw" name="Usuários" clientDependency="_nQiPkXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_nQiPkXSUEd-PrZYYt2Wrcw" client="_nQiPkHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_0EQuIKpaEdyW0fCQjx5k-g?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Usuários?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_0EQuIKpaEdyW0fCQjx5k-g?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20uso/Arquitetura/Usuários?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_nTEmMHSUEd-PrZYYt2Wrcw" name="Visão lógica" clientDependency="_nTEmMXSUEd-PrZYYt2Wrcw">
+    <manifestation xmi:id="_nTEmMXSUEd-PrZYYt2Wrcw" client="_nTEmMHSUEd-PrZYYt2Wrcw">
+      <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_fcIo0G9DEduQl5IDa-3nJg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica?"/>
+      <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_fcIo0G9DEduQl5IDa-3nJg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_nVdL0HSUEd-PrZYYt2Wrcw" name="Visão lógica">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_nVdL0XSUEd-PrZYYt2Wrcw" name="Realizações" clientDependency="_nVdL0nSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_nVdL0nSUEd-PrZYYt2Wrcw" client="_nVdL0XSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284059F4B501F4?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284059F4B501F4?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nX-7YHSUEd-PrZYYt2Wrcw" name="Realizações">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_nX-7YXSUEd-PrZYYt2Wrcw" name="cadastro" clientDependency="_nX-7YnSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_nX-7YnSUEd-PrZYYt2Wrcw" client="_nX-7YXSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028400EA1550157?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações/cadastro?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028400EA1550157?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações/cadastro?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_naXhAHSUEd-PrZYYt2Wrcw" name="principal" clientDependency="_nahSAHSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_nahSAHSUEd-PrZYYt2Wrcw" client="_naXhAHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840F44BD10157?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações/principal?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840F44BD10157?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações/principal?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_nc53oHSUEd-PrZYYt2Wrcw" name="básicas" clientDependency="_nc53oXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_nc53oXSUEd-PrZYYt2Wrcw" client="_nc53oHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_lndesL0kEdySF6ouIMqUnw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações/básicas?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_lndesL0kEdySF6ouIMqUnw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Realizações/básicas?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_nfSdQHSUEd-PrZYYt2Wrcw" name="Estrutura" clientDependency="_nfcOQHSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_nfcOQHSUEd-PrZYYt2Wrcw" client="_nfSdQHSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DDA436B009B?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DDA436B009B?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nh0z4HSUEd-PrZYYt2Wrcw" name="Estrutura">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_nh0z4XSUEd-PrZYYt2Wrcw" name="persistência" clientDependency="_nh0z4nSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_nh0z4nSUEd-PrZYYt2Wrcw" client="_nh0z4XSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283BE3F7460186?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/persistência?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283BE3F7460186?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/persistência?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_nkWjcHSUEd-PrZYYt2Wrcw" name="persistência">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nkWjcXSUEd-PrZYYt2Wrcw" name="CorretorDePersistência" clientDependency="_nkWjcnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nkWjcnSUEd-PrZYYt2Wrcw" client="_nkWjcXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xbN4trleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/persistência/CorretorDePersistência?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xbN4trleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/persistência/CorretorDePersistência?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nmvJEHSUEd-PrZYYt2Wrcw" name="ObjetoPersistente" clientDependency="_nmvJEXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nmvJEXSUEd-PrZYYt2Wrcw" client="_nmvJEHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xbN4kbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/persistência/ObjetoPersistente?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xbN4kbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/persistência/ObjetoPersistente?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_npRfsHSUEd-PrZYYt2Wrcw" name="sistema" clientDependency="_npRfsXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_npRfsXSUEd-PrZYYt2Wrcw" client="_npRfsHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283C59692B026C?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283C59692B026C?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_nrqFUHSUEd-PrZYYt2Wrcw" name="sistema">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_nrqFUXSUEd-PrZYYt2Wrcw" name="exceção" clientDependency="_nrqFUnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_nrqFUnSUEd-PrZYYt2Wrcw" client="_nrqFUXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028404E060E03A5?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B50028404E060E03A5?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_nuMb8HSUEd-PrZYYt2Wrcw" name="exceção">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_nuMb8XSUEd-PrZYYt2Wrcw" name="ExceçãoDeCamada" clientDependency="_nuMb8nSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_nuMb8nSUEd-PrZYYt2Wrcw" client="_nuMb8XSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC6B32702AC?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção/ExceçãoDeCamada?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC6B32702AC?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção/ExceçãoDeCamada?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_nwlBkHSUEd-PrZYYt2Wrcw" name="ExceçãoDeControle" clientDependency="_nwlBkXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_nwlBkXSUEd-PrZYYt2Wrcw" client="_nwlBkHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC6B3F6032C?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção/ExceçãoDeControle?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC6B3F6032C?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção/ExceçãoDeControle?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_ny9nMHSUEd-PrZYYt2Wrcw" name="ExceçãoDeEntidade" clientDependency="_ny9nMXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_ny9nMXSUEd-PrZYYt2Wrcw" client="_ny9nMHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC6B3E6021B?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção/ExceçãoDeEntidade?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC6B3E6021B?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/exceção/ExceçãoDeEntidade?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_n1fWwHSUEd-PrZYYt2Wrcw" name="Auditor" clientDependency="_n1fWwXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_n1fWwXSUEd-PrZYYt2Wrcw" client="_n1fWwHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7URbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Auditor?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7URbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Auditor?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_n338YHSUEd-PrZYYt2Wrcw" name="Formatador" clientDependency="_n338YXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_n338YXSUEd-PrZYYt2Wrcw" client="_n338YHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFD2LleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Formatador?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFD2LleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Formatador?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_n6aTAHSUEd-PrZYYt2Wrcw" name="ValidadorDeTexto" clientDependency="_n6aTAXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_n6aTAXSUEd-PrZYYt2Wrcw" client="_n6aTAHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFDyLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/ValidadorDeTexto?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFDyLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/ValidadorDeTexto?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_n8y4oHSUEd-PrZYYt2Wrcw" name="Validador" clientDependency="_n8y4oXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_n8y4oXSUEd-PrZYYt2Wrcw" client="_n8y4oHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7TpbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Validador?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7TpbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Validador?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_n_LeQHSUEd-PrZYYt2Wrcw" name="Mensagens" clientDependency="_n_LeQXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_n_LeQXSUEd-PrZYYt2Wrcw" client="_n_LeQHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284047691C0207?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Mensagens?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500284047691C0207?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Mensagens?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oBtN0HSUEd-PrZYYt2Wrcw" name="Configurações" clientDependency="_oBtN0XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oBtN0XSUEd-PrZYYt2Wrcw" client="_oBtN0HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840918AB303B9?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Configurações?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840918AB303B9?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Configurações?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oEFzcHSUEd-PrZYYt2Wrcw" name="RegistroDeSolitários" clientDependency="_oEFzcXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oEFzcXSUEd-PrZYYt2Wrcw" client="_oEFzcHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840CF17DE008C?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/RegistroDeSolitários?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B5002840CF17DE008C?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/RegistroDeSolitários?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oGeZEHSUEd-PrZYYt2Wrcw" name="Propriedades" clientDependency="_oGeZEXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oGeZEXSUEd-PrZYYt2Wrcw" client="_oGeZEHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_rmXf0Lo0EdyQCefi6oNTyQ?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Propriedades?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_rmXf0Lo0EdyQCefi6oNTyQ?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/sistema/Propriedades?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oJAvsHSUEd-PrZYYt2Wrcw" name="entidade" clientDependency="_oJAvsXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_oJAvsXSUEd-PrZYYt2Wrcw" client="_oJAvsHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283EB7F6CC0186?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283EB7F6CC0186?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oLZVUHSUEd-PrZYYt2Wrcw" name="entidade">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oLZVUXSUEd-PrZYYt2Wrcw" name="NúmeroSeqüencial" clientDependency="_oLZVUnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oLZVUnSUEd-PrZYYt2Wrcw" client="_oLZVUXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_jkUfMb4JEdyjN_GcgaZHTA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/NúmeroSeqüencial?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_jkUfMb4JEdyjN_GcgaZHTA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/NúmeroSeqüencial?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oNx68HSUEd-PrZYYt2Wrcw" name="Descritor" clientDependency="_oNx68XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oNx68XSUEd-PrZYYt2Wrcw" client="_oNx68HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEOrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/Descritor?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEOrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/Descritor?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oQURkHSUEd-PrZYYt2Wrcw" name="EntidadePersistente" clientDependency="_oQURkXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oQURkXSUEd-PrZYYt2Wrcw" client="_oQURkHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEZLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/EntidadePersistente?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEZLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/EntidadePersistente?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oSs3MHSUEd-PrZYYt2Wrcw" name="EntidadePersistenteReferenciável" clientDependency="_oSs3MXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oSs3MXSUEd-PrZYYt2Wrcw" client="_oSs3MHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEUrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/EntidadePersistenteReferenciável?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEUrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/EntidadePersistenteReferenciável?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oVOmwHSUEd-PrZYYt2Wrcw" name="EntidadePersistenteReferenciávelComDetalhes" clientDependency="_oVOmwXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oVOmwXSUEd-PrZYYt2Wrcw" client="_oVOmwHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEorleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/EntidadePersistenteReferenciávelComDetalhes?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEorleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/entidade/EntidadePersistenteReferenciávelComDetalhes?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oXnMYHSUEd-PrZYYt2Wrcw" name="controle" clientDependency="_oXnMYXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_oXnMYXSUEd-PrZYYt2Wrcw" client="_oXnMYHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283EB7F6E90196?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_3784E4B500283EB7F6E90196?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oaJjAHSUEd-PrZYYt2Wrcw" name="controle">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_oaJjAXSUEd-PrZYYt2Wrcw" name="principal" clientDependency="_oaJjAnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_oaJjAnSUEd-PrZYYt2Wrcw" client="_oaJjAXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEzbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/principal?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEzbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/principal?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ocr5oHSUEd-PrZYYt2Wrcw" name="principal">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_ocr5oXSUEd-PrZYYt2Wrcw" name="TratadorDeLogin" clientDependency="_ocr5onSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_ocr5onSUEd-PrZYYt2Wrcw" client="_ocr5oXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Interface" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEzrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/principal/TratadorDeLogin?"/>
+              <utilizedElement xmi:type="uml:Interface" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFEzrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/principal/TratadorDeLogin?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_ofEfQHSUEd-PrZYYt2Wrcw" name="Impressor" clientDependency="_ofEfQXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_ofEfQXSUEd-PrZYYt2Wrcw" client="_ofEfQHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_9UKdYr4QEdyjN_GcgaZHTA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/Impressor?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_9UKdYr4QEdyjN_GcgaZHTA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/Impressor?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_ohmO0HSUEd-PrZYYt2Wrcw" name="GerenteDeCadastro" clientDependency="_ohmO0XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_ohmO0XSUEd-PrZYYt2Wrcw" client="_ohmO0HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFE3rleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/GerenteDeCadastro?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QrFE3rleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/controle/GerenteDeCadastro?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_oj-0cHSUEd-PrZYYt2Wrcw" name="fronteira" clientDependency="_oj-0cXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_oj-0cXSUEd-PrZYYt2Wrcw" client="_oj-0cHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_karuAMBPEdyTAOG4uc-HEw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_karuAMBPEdyTAOG4uc-HEw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_omXaEHSUEd-PrZYYt2Wrcw" name="fronteira">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_omXaEXSUEd-PrZYYt2Wrcw" name="cadastro" clientDependency="_omXaEnSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_omXaEnSUEd-PrZYYt2Wrcw" client="_omXaEXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZSbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZSbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_oo5wsHSUEd-PrZYYt2Wrcw" name="cadastro">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_oo5wsXSUEd-PrZYYt2Wrcw" name="TelaDeEdiçãoDeItemMestre" clientDependency="_oo5wsnSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_oo5wsnSUEd-PrZYYt2Wrcw" client="_oo5wsXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxhYrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeEdiçãoDeItemMestre?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxhYrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeEdiçãoDeItemMestre?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_orSWUHSUEd-PrZYYt2Wrcw" name="TelaDeGestãoDeItens" clientDependency="_orSWUXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_orSWUXSUEd-PrZYYt2Wrcw" client="_orSWUHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qqxhq7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeGestãoDeItens?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qqxhq7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeGestãoDeItens?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_ot0F4HSUEd-PrZYYt2Wrcw" name="FábricaDeTelasDeGestãoDeCadastro" clientDependency="_ot0F4XSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_ot0F4XSUEd-PrZYYt2Wrcw" client="_ot0F4HSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxiGrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/FábricaDeTelasDeGestãoDeCadastro?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxiGrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/FábricaDeTelasDeGestãoDeCadastro?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_owMrgHSUEd-PrZYYt2Wrcw" name="TelaDeSeleçãoDeItem" clientDependency="_owMrgXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_owMrgXSUEd-PrZYYt2Wrcw" client="_owMrgHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxiT7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeSeleçãoDeItem?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxiT7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeSeleçãoDeItem?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_oylRIHSUEd-PrZYYt2Wrcw" name="TelaDeEdiçãoDeItem" clientDependency="_oylRIXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_oylRIXSUEd-PrZYYt2Wrcw" client="_oylRIHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxicbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeEdiçãoDeItem?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxicbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeEdiçãoDeItem?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_o092wHSUEd-PrZYYt2Wrcw" name="TelaDeItens" clientDependency="_o092wXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_o092wXSUEd-PrZYYt2Wrcw" client="_o092wHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxiorleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeItens?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxiorleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeItens?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_o3gNYHSUEd-PrZYYt2Wrcw" name="TelaDeSeleçãoDeItemComDetalhes" clientDependency="_o3gNYXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_o3gNYXSUEd-PrZYYt2Wrcw" client="_o3gNYHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Tyw_QE74Ed-baoboSynW6A?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeSeleçãoDeItemComDetalhes?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Tyw_QE74Ed-baoboSynW6A?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/cadastro/TelaDeSeleçãoDeItemComDetalhes?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_o6CkAHSUEd-PrZYYt2Wrcw" name="componente" clientDependency="_o6CkAXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_o6CkAXSUEd-PrZYYt2Wrcw" client="_o6CkAHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoAbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoAbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_o8bJoHSUEd-PrZYYt2Wrcw" name="componente">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_o8bJoXSUEd-PrZYYt2Wrcw" name="campo" clientDependency="_o8bJonSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_o8bJonSUEd-PrZYYt2Wrcw" client="_o8bJoXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoArleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoArleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_o_GqMHSUEd-PrZYYt2Wrcw" name="campo">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_o_GqMXSUEd-PrZYYt2Wrcw" name="TabelaDeItensEditáveis" clientDependency="_o_GqMnSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_o_GqMnSUEd-PrZYYt2Wrcw" client="_o_GqMXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoA7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/TabelaDeItensEditáveis?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoA7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/TabelaDeItensEditáveis?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pBpA0HSUEd-PrZYYt2Wrcw" name="TabelaDeItens" clientDependency="_pBpA0XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pBpA0XSUEd-PrZYYt2Wrcw" client="_pBpA0HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoIbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/TabelaDeItens?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeoIbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/TabelaDeItens?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pEBmcHSUEd-PrZYYt2Wrcw" name="LinhaDeSenha" clientDependency="_pEBmcXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pEBmcXSUEd-PrZYYt2Wrcw" client="_pEBmcHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeolbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/LinhaDeSenha?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqeolbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/LinhaDeSenha?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pGaMEHSUEd-PrZYYt2Wrcw" name="Rótulo" clientDependency="_pGaMEXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pGaMEXSUEd-PrZYYt2Wrcw" client="_pGaMEHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoXc7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/Rótulo?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoXc7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/Rótulo?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pI77oHSUEd-PrZYYt2Wrcw" name="CardápioDeOpção" clientDependency="_pJrigHSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pJrigHSUEd-PrZYYt2Wrcw" client="_pI77oHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoXiLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/CardápioDeOpção?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoXiLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/CardápioDeOpção?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pMN5IHSUEd-PrZYYt2Wrcw" name="LinhaDeTexto" clientDependency="_pMN5IXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pMN5IXSUEd-PrZYYt2Wrcw" client="_pMN5IHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoX0rleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/LinhaDeTexto?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoX0rleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/campo/LinhaDeTexto?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_pOmewHSUEd-PrZYYt2Wrcw" name="painel" clientDependency="_pOmewXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_pOmewXSUEd-PrZYYt2Wrcw" client="_pOmewHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYGLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYGLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_pQ_EYHSUEd-PrZYYt2Wrcw" name="painel">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pQ_EYXSUEd-PrZYYt2Wrcw" name="Painel" clientDependency="_pQ_EYnSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pQ_EYnSUEd-PrZYYt2Wrcw" client="_pQ_EYXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYGbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/Painel?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYGbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/Painel?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pThbAHSUEd-PrZYYt2Wrcw" name="BotõesDeOpção" clientDependency="_pThbAXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pThbAXSUEd-PrZYYt2Wrcw" client="_pThbAHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYKLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/BotõesDeOpção?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYKLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/BotõesDeOpção?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pV6AoHSUEd-PrZYYt2Wrcw" name="PainelMatricial" clientDependency="_pV6AoXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pV6AoXSUEd-PrZYYt2Wrcw" client="_pV6AoHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYXbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelMatricial?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYXbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelMatricial?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pYSmQHSUEd-PrZYYt2Wrcw" name="PainelVertical" clientDependency="_pYSmQXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pYSmQXSUEd-PrZYYt2Wrcw" client="_pYSmQHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYbrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelVertical?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYbrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelVertical?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pa0V0HSUEd-PrZYYt2Wrcw" name="PainelLinear" clientDependency="_pa0V0XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pa0V0XSUEd-PrZYYt2Wrcw" client="_pa0V0HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYgbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelLinear?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYgbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelLinear?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pdM7cHSUEd-PrZYYt2Wrcw" name="PainelHorizontal" clientDependency="_pdM7cXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pdM7cXSUEd-PrZYYt2Wrcw" client="_pdM7cHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYmrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelHorizontal?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYmrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/painel/PainelHorizontal?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_pf4cAHSUEd-PrZYYt2Wrcw" name="comando" clientDependency="_pf4cAXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_pf4cAXSUEd-PrZYYt2Wrcw" client="_pf4cAHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYrbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYrbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_piayoHSUEd-PrZYYt2Wrcw" name="comando">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_piayoXSUEd-PrZYYt2Wrcw" name="BotãoDeApertar" clientDependency="_piayonSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_piayonSUEd-PrZYYt2Wrcw" client="_piayoXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYrrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/BotãoDeApertar?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYrrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/BotãoDeApertar?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pkzYQHSUEd-PrZYYt2Wrcw" name="ItemDeCardápio" clientDependency="_pkzYQXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pkzYQXSUEd-PrZYYt2Wrcw" client="_pkzYQHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYw7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/ItemDeCardápio?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYw7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/ItemDeCardápio?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_pnL94HSUEd-PrZYYt2Wrcw" name="Comando" clientDependency="_pnL94XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_pnL94XSUEd-PrZYYt2Wrcw" client="_pnL94HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYzrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/Comando?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoYzrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/Comando?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_ppuUgHSUEd-PrZYYt2Wrcw" name="BotãoDeChecar" clientDependency="_ppuUgXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_ppuUgXSUEd-PrZYYt2Wrcw" client="_ppuUgHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoY77leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/BotãoDeChecar?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoY77leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/comando/BotãoDeChecar?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_psG6IHSUEd-PrZYYt2Wrcw" name="Cardápio" clientDependency="_psG6IXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_psG6IXSUEd-PrZYYt2Wrcw" client="_psG6IHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZA7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/Cardápio?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZA7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/Cardápio?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_puffwHSUEd-PrZYYt2Wrcw" name="Componente" clientDependency="_puffwXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_puffwXSUEd-PrZYYt2Wrcw" client="_puffwHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZGLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/Componente?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZGLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/Componente?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_pw4FYHSUEd-PrZYYt2Wrcw" name="BarraDeCardápio" clientDependency="_pw4FYXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_pw4FYXSUEd-PrZYYt2Wrcw" client="_pw4FYHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZPrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/BarraDeCardápio?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqoZPrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/componente/BarraDeCardápio?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_pzZ08HSUEd-PrZYYt2Wrcw" name="principal" clientDependency="_pzZ08XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_pzZ08XSUEd-PrZYYt2Wrcw" client="_pzZ08HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_69r2UMBOEdyTAOG4uc-HEw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/principal?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_69r2UMBOEdyTAOG4uc-HEw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/principal?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_p18LkHSUEd-PrZYYt2Wrcw" name="principal">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_p18LkXSUEd-PrZYYt2Wrcw" name="TelaPrincipal" clientDependency="_p18LknSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_p18LknSUEd-PrZYYt2Wrcw" client="_p18LkXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qqxja7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/principal/TelaPrincipal?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qqxja7leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/principal/TelaPrincipal?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_p4UxMHSUEd-PrZYYt2Wrcw" name="MensagemAoUsuário" clientDependency="_p4UxMXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_p4UxMXSUEd-PrZYYt2Wrcw" client="_p4UxMHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qqxi97leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/MensagemAoUsuário?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qqxi97leEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/MensagemAoUsuário?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_p6tW0HSUEd-PrZYYt2Wrcw" name="Tela" clientDependency="_p6tW0XSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_p6tW0XSUEd-PrZYYt2Wrcw" client="_p6tW0HSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxjIrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/Tela?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxjIrleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/Tela?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_p9PtcHSUEd-PrZYYt2Wrcw" name="TelaDeEdição" clientDependency="_p9PtcXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_p9PtcXSUEd-PrZYYt2Wrcw" client="_p9PtcHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7THbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/TelaDeEdição?"/>
+            <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7THbleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/TelaDeEdição?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_p_oTEHSUEd-PrZYYt2Wrcw" name="Atualizável" clientDependency="_p_oTEXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_p_oTEXSUEd-PrZYYt2Wrcw" client="_p_oTEHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Interface" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7S5rleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/Atualizável?"/>
+            <utilizedElement xmi:type="uml:Interface" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Qq7S5rleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/Atualizável?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_qCA4sHSUEd-PrZYYt2Wrcw" name="Selecionável" clientDependency="_qCA4sXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_qCA4sXSUEd-PrZYYt2Wrcw" client="_qCA4sHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Interface" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxjHLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/Selecionável?"/>
+            <utilizedElement xmi:type="uml:Interface" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QqxjHLleEdyW44TYVIdLRg?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Estrutura/fronteira/Selecionável?"/>
+          </manifestation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_qEioQHSUEd-PrZYYt2Wrcw" name="Arquitetura" clientDependency="_qEioQXSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_qEioQXSUEd-PrZYYt2Wrcw" client="_qEioQHSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Y3fFwDu3EdyejqxTrxfnKQ?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Y3fFwDu3EdyejqxTrxfnKQ?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qG7N4HSUEd-PrZYYt2Wrcw" name="Arquitetura">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qG7N4XSUEd-PrZYYt2Wrcw" name="Camada de sistema" clientDependency="_qG7N4nSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_qG7N4nSUEd-PrZYYt2Wrcw" client="_qG7N4XSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_UNaLcLorEdyQCefi6oNTyQ?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20sistema?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_UNaLcLorEdyQCefi6oNTyQ?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20sistema?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qJTzgHSUEd-PrZYYt2Wrcw" name="Camada de fronteira" clientDependency="_qJTzgXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_qJTzgXSUEd-PrZYYt2Wrcw" client="_qJTzgHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_LwjrsDx7Edy9huL-8mU-qA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20fronteira?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_LwjrsDx7Edy9huL-8mU-qA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20fronteira?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qL2KIHSUEd-PrZYYt2Wrcw" name="Globais" clientDependency="_qL2KIXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_qL2KIXSUEd-PrZYYt2Wrcw" client="_qL2KIHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_IlAVsDx7Edy9huL-8mU-qA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Globais?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_IlAVsDx7Edy9huL-8mU-qA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Globais?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qOOvwHSUEd-PrZYYt2Wrcw" name="Camada de persistência" clientDependency="_qOOvwXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_qOOvwXSUEd-PrZYYt2Wrcw" client="_qOOvwHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_h-Jm8L0qEdySF6ouIMqUnw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20persistência?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_h-Jm8L0qEdySF6ouIMqUnw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20persistência?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qOX5sHSUEd-PrZYYt2Wrcw" name="Camada de entidade " clientDependency="_qOX5sXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_qOX5sXSUEd-PrZYYt2Wrcw" client="_qOX5sHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_enQS4L1GEdySF6ouIMqUnw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20entidade%20?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_enQS4L1GEdySF6ouIMqUnw?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20entidade%20?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qRzoMHSUEd-PrZYYt2Wrcw" name="Camada de controle" clientDependency="_qRzoMXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_qRzoMXSUEd-PrZYYt2Wrcw" client="_qRzoMHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_-K6NML4SEdyjN_GcgaZHTA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20controle?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_-K6NML4SEdyjN_GcgaZHTA?Praxis%20-%20Modelo%20da%20solução/Visão%20lógica/Arquitetura/Camada%20de%20controle?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_qUVXwHSUEd-PrZYYt2Wrcw" name="Visão de testes" clientDependency="_qUVXwXSUEd-PrZYYt2Wrcw">
+    <manifestation xmi:id="_qUVXwXSUEd-PrZYYt2Wrcw" client="_qUVXwHSUEd-PrZYYt2Wrcw">
+      <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2KlikK_BEdu9pZYNJHlDew?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes?"/>
+      <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2KlikK_BEdu9pZYNJHlDew?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_qW3uYHSUEd-PrZYYt2Wrcw" name="Visão de testes">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_qW3uYXSUEd-PrZYYt2Wrcw" name="Estrutura" clientDependency="_qW3uYnSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_qW3uYnSUEd-PrZYYt2Wrcw" client="_qW3uYXSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ahmWcPmFEdu4aeU3WA9KQg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ahmWcPmFEdu4aeU3WA9KQg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qZQUAHSUEd-PrZYYt2Wrcw" name="Estrutura">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_qZQUAXSUEd-PrZYYt2Wrcw" name="teste" clientDependency="_qZQUAnSUEd-PrZYYt2Wrcw" fileName="praxis.base.teste">
+        <manifestation xmi:id="_qZQUAnSUEd-PrZYYt2Wrcw" client="_qZQUAXSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_zS7cgM4NEd2qXOZNwU7HfA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_zS7cgM4NEd2qXOZNwU7HfA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_qbyqoHSUEd-PrZYYt2Wrcw" name="teste">
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_qbyqoXSUEd-PrZYYt2Wrcw" name="caixacinza" clientDependency="_qbyqonSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_qbyqonSUEd-PrZYYt2Wrcw" client="_qbyqoXSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAZnEIDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAZnEIDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_qeLQQHSUEd-PrZYYt2Wrcw" name="caixacinza">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_qeLQQXSUEd-PrZYYt2Wrcw" name="principal"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_qgs_0HSUEd-PrZYYt2Wrcw" name="principal">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_qgs_0XSUEd-PrZYYt2Wrcw" name="InspetorDaTelaPrincipal"/>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_qjFlcHSUEd-PrZYYt2Wrcw" name="ConferenteDeLogin"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_qleLEHSUEd-PrZYYt2Wrcw" name="cadastro" clientDependency="_qleLEXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_qleLEXSUEd-PrZYYt2Wrcw" client="_qleLEHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjYG4DbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjYG4DbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_qoAhsHSUEd-PrZYYt2Wrcw" name="cadastro">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_qoAhsXSUEd-PrZYYt2Wrcw" name="inspetor"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_qqZHUHSUEd-PrZYYt2Wrcw" name="inspetor">
+              <packagedElement xmi:type="uml:Artifact" xmi:id="_qqZHUXSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeEdiçãoDeItem"/>
+              <packagedElement xmi:type="uml:Artifact" xmi:id="_qs7d8HSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeGestãoDeItens"/>
+              <packagedElement xmi:type="uml:Artifact" xmi:id="_qvUDkHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeEdiçãoDeItemMestre"/>
+              <packagedElement xmi:type="uml:Artifact" xmi:id="_qxspMHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeSeleçãoDeItem"/>
+              <packagedElement xmi:type="uml:Artifact" xmi:id="_q0YJwHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeItens"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_q2wvYHSUEd-PrZYYt2Wrcw" name="TesteEntidadePersistente" clientDependency="_q2wvYXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_q2wvYXSUEd-PrZYYt2Wrcw" client="_q2wvYHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjZ1IDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro/TesteEntidadePersistente?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjZ1IDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro/TesteEntidadePersistente?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_q5Se8HSUEd-PrZYYt2Wrcw" name="ConferenteDeItens" clientDependency="_q5cP8HSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_q5cP8HSUEd-PrZYYt2Wrcw" client="_q5Se8HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjaA4DbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro/ConferenteDeItens?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjaA4DbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro/ConferenteDeItens?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_q701kHSUEd-PrZYYt2Wrcw" name="TesteGestãoDeCadastroComDetalhes"/>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_q-NbMHSUEd-PrZYYt2Wrcw" name="TesteGestãoDeCadastro"/>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rAvx0HSUEd-PrZYYt2Wrcw" name="ConferenteDeGestãoDeCadastro"/>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rDIXcHSUEd-PrZYYt2Wrcw" name="ConferenteDeGestãoDeCadastroComDetalhes"/>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rFg9EHSUEd-PrZYYt2Wrcw" name="TesteGerenteDeCadastro" clientDependency="_rFg9EXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rFg9EXSUEd-PrZYYt2Wrcw" client="_rFg9EHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjbBIDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro/TesteGerenteDeCadastro?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjbBIDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/cadastro/TesteGerenteDeCadastro?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rH5isHSUEd-PrZYYt2Wrcw" name="Inspetor"/>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rKbSQHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeEdição"/>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rMz34HSUEd-PrZYYt2Wrcw" name="Conferente"/>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rPWOgHSUEd-PrZYYt2Wrcw" name="TesteDeUnidade" clientDependency="_rPWOgXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_rPWOgXSUEd-PrZYYt2Wrcw" client="_rPWOgHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjbXoDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/TesteDeUnidade?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_xAjbXoDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixacinza/TesteDeUnidade?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rRu0IHSUEd-PrZYYt2Wrcw" name="TesteDeCasoDeUso"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_rUHZwHSUEd-PrZYYt2Wrcw" name="caixapreta" clientDependency="_rUHZwXSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_rUHZwXSUEd-PrZYYt2Wrcw" client="_rUHZwHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_6HKF0K_BEdu9pZYNJHlDew?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_6HKF0K_BEdu9pZYNJHlDew?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_rURKwHSUEd-PrZYYt2Wrcw" name="caixapreta">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rURKwXSUEd-PrZYYt2Wrcw" name="principal" clientDependency="_rURKwnSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_rURKwnSUEd-PrZYYt2Wrcw" client="_rURKwXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_4hYaMM4UEd2qXOZNwU7HfA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/principal?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_4hYaMM4UEd2qXOZNwU7HfA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/principal?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rWy6UHSUEd-PrZYYt2Wrcw" name="principal">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rWy6UXSUEd-PrZYYt2Wrcw" name="InspetorDaTelaPrincipal" clientDependency="_rWy6UnSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rWy6UnSUEd-PrZYYt2Wrcw" client="_rWy6UXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_4hYaRM4UEd2qXOZNwU7HfA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/principal/InspetorDaTelaPrincipal?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_4hYaRM4UEd2qXOZNwU7HfA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/principal/InspetorDaTelaPrincipal?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_rZVQ8HSUEd-PrZYYt2Wrcw" name="cadastro" clientDependency="_rZVQ8XSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_rZVQ8XSUEd-PrZYYt2Wrcw" client="_rZVQ8HSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_jHQwUPsoEduvCJ8nPeLIZg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_jHQwUPsoEduvCJ8nPeLIZg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_rbt2kHSUEd-PrZYYt2Wrcw" name="cadastro">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rbt2kXSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeEdiçãoDeItem" clientDependency="_rbt2knSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rbt2knSUEd-PrZYYt2Wrcw" client="_rbt2kXSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_armooMD-EduNVcZX0amhPw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeEdiçãoDeItem?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_armooMD-EduNVcZX0amhPw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeEdiçãoDeItem?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_reGcMHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeEdiçãoDeItemMestre" clientDependency="_reGcMXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_reGcMXSUEd-PrZYYt2Wrcw" client="_reGcMHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_KeJ_gNQLEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeEdiçãoDeItemMestre?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_KeJ_gNQLEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeEdiçãoDeItemMestre?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rgoLwHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeGestãoDeItens" clientDependency="_rgoLwXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rgoLwXSUEd-PrZYYt2Wrcw" client="_rgoLwHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_EPbWgMD-EduNVcZX0amhPw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeGestãoDeItens?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_EPbWgMD-EduNVcZX0amhPw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeGestãoDeItens?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rjAxYHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeItens" clientDependency="_rjAxYXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rjAxYXSUEd-PrZYYt2Wrcw" client="_rjAxYHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ewmlYN4ZEduNhP30ARRqiQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeItens?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ewmlYN4ZEduNhP30ARRqiQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeItens?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rlZXAHSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeSeleçãoDeItem" clientDependency="_rlZXAXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rlZXAXSUEd-PrZYYt2Wrcw" client="_rlZXAHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_TitJMNQLEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeSeleçãoDeItem?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_TitJMNQLEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/InspetorDaTelaDeSeleçãoDeItem?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rn7toHSUEd-PrZYYt2Wrcw" name="TesteGestãoDeCadastro" clientDependency="_rn7toXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rn7toXSUEd-PrZYYt2Wrcw" client="_rn7toHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Ny93MK_EEdu9pZYNJHlDew?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/TesteGestãoDeCadastro?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Ny93MK_EEdu9pZYNJHlDew?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/TesteGestãoDeCadastro?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rqUTQHSUEd-PrZYYt2Wrcw" name="TesteGestãoDeCadastroComDetalhes" clientDependency="_rqUTQXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rqUTQXSUEd-PrZYYt2Wrcw" client="_rqUTQHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_A7f9gNQLEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/TesteGestãoDeCadastroComDetalhes?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_A7f9gNQLEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/TesteGestãoDeCadastroComDetalhes?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rss44HSUEd-PrZYYt2Wrcw" name="ConferenteDeGestãoDeCadastro" clientDependency="_rss44XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rss44XSUEd-PrZYYt2Wrcw" client="_rss44HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_WG9O4LE-EduO2sFRUHicWg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConferenteDeGestãoDeCadastro?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_WG9O4LE-EduO2sFRUHicWg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConferenteDeGestãoDeCadastro?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rvPPgHSUEd-PrZYYt2Wrcw" name="ConferenteDeGestãoDeCadastroComDetalhes" clientDependency="_rvPPgXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rvPPgXSUEd-PrZYYt2Wrcw" client="_rvPPgHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_5E4mkNQKEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConferenteDeGestãoDeCadastroComDetalhes?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_5E4mkNQKEduTQN8UNM64BQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConferenteDeGestãoDeCadastroComDetalhes?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_rxn1IHSUEd-PrZYYt2Wrcw" name="ConstantesDeGestãoDeCadastro" clientDependency="_rxn1IXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_rxn1IXSUEd-PrZYYt2Wrcw" client="_rxn1IHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_8sQ5EIBeEd2I_YLlbixEIA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConstantesDeGestãoDeCadastro?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_8sQ5EIBeEd2I_YLlbixEIA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConstantesDeGestãoDeCadastro?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_r0AawHSUEd-PrZYYt2Wrcw" name="ConferenteAbstratoDeGestãoDeCadastro" clientDependency="_r0AawXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_r0AawXSUEd-PrZYYt2Wrcw" client="_r0AawHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_4WyecBsGEd-qZ_b2N2bySw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConferenteAbstratoDeGestãoDeCadastro?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_4WyecBsGEd-qZ_b2N2bySw?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/cadastro/ConferenteAbstratoDeGestãoDeCadastro?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_r2iKUHSUEd-PrZYYt2Wrcw" name="básico" clientDependency="_r2iKUXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_r2iKUXSUEd-PrZYYt2Wrcw" client="_r2iKUHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_sOieQIdNEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico?"/>
+              <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_sOieQIdNEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_r46v8HSUEd-PrZYYt2Wrcw" name="básico">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_r46v8XSUEd-PrZYYt2Wrcw" name="InspetorDaCaixaDeMensagem" clientDependency="_r46v8nSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_r46v8nSUEd-PrZYYt2Wrcw" client="_r46v8XSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_LGvFwMs0EduPzOIKWylFUQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaCaixaDeMensagem?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_LGvFwMs0EduPzOIKWylFUQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaCaixaDeMensagem?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_r7dGkHSUEd-PrZYYt2Wrcw" name="InspetorDaCaixaDeMensagemDeConfirmação" clientDependency="_r7dGkXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_r7dGkXSUEd-PrZYYt2Wrcw" client="_r7dGkHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_lEs04Ms6EduPzOIKWylFUQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaCaixaDeMensagemDeConfirmação?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_lEs04Ms6EduPzOIKWylFUQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaCaixaDeMensagemDeConfirmação?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_r91sMHSUEd-PrZYYt2Wrcw" name="InspetorDaCaixaDeMensagemInformativa" clientDependency="_r91sMXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_r91sMXSUEd-PrZYYt2Wrcw" client="_r91sMHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_fLfC8MszEduPzOIKWylFUQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaCaixaDeMensagemInformativa?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_fLfC8MszEduPzOIKWylFUQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaCaixaDeMensagemInformativa?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_sAOR0HSUEd-PrZYYt2Wrcw" name="InspetorDaTelaDeEdição" clientDependency="_sAOR0XSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_sAOR0XSUEd-PrZYYt2Wrcw" client="_sAOR0HSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2s2J0IdFEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaTelaDeEdição?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2s2J0IdFEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/InspetorDaTelaDeEdição?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_sCm3cHSUEd-PrZYYt2Wrcw" name="Conferente" clientDependency="_sCm3cXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_sCm3cXSUEd-PrZYYt2Wrcw" client="_sCm3cHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_bhabAIeMEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/Conferente?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_bhabAIeMEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/Conferente?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_sFJOEHSUEd-PrZYYt2Wrcw" name="ConstantesDeTestes" clientDependency="_sFJOEXSUEd-PrZYYt2Wrcw">
+              <manifestation xmi:id="_sFJOEXSUEd-PrZYYt2Wrcw" client="_sFJOEHSUEd-PrZYYt2Wrcw">
+                <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_yDEosIdNEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/ConstantesDeTestes?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_yDEosIdNEd6VQrQUy8F05Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/básico/ConstantesDeTestes?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sHhzsHSUEd-PrZYYt2Wrcw" name="AbstractPraxisTestScript" clientDependency="_sHhzsXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sHhzsXSUEd-PrZYYt2Wrcw" client="_sHhzsHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2ykhoBphEd-BqOr5VATTmg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/AbstractPraxisTestScript?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2ykhoBphEd-BqOr5VATTmg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/AbstractPraxisTestScript?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sJ6ZUHSUEd-PrZYYt2Wrcw" name="PraxisDryRunTestScript" clientDependency="_sKDjQHSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sKDjQHSUEd-PrZYYt2Wrcw" client="_sJ6ZUHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2Z14kBphEd-BqOr5VATTmg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/PraxisDryRunTestScript?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_2Z14kBphEd-BqOr5VATTmg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/PraxisDryRunTestScript?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sMcI4HSUEd-PrZYYt2Wrcw" name="PraxisTestScript" clientDependency="_sMcI4XSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sMcI4XSUEd-PrZYYt2Wrcw" client="_sMcI4HSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_vI5S4IDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/PraxisTestScript?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_vI5S4IDbEd20Wo1u6WjbYg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/caixapreta/PraxisTestScript?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Artifact" xmi:id="_sO0ugHSUEd-PrZYYt2Wrcw" name="comum" clientDependency="_sO-fgHSUEd-PrZYYt2Wrcw">
+          <manifestation xmi:id="_sO-fgHSUEd-PrZYYt2Wrcw" client="_sO0ugHSUEd-PrZYYt2Wrcw">
+            <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_M7Bx0NCuEduBVY0fNaQepQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum?"/>
+            <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_M7Bx0NCuEduBVY0fNaQepQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum?"/>
+          </manifestation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_sRXFIHSUEd-PrZYYt2Wrcw" name="comum">
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sRXFIXSUEd-PrZYYt2Wrcw" name="FábricaDeEntidadesDeTeste" clientDependency="_sRXFInSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sRXFInSUEd-PrZYYt2Wrcw" client="_sRXFIXSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_L3y0UOeFEdujGZNsBooJFQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeEntidadesDeTeste?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_L3y0UOeFEdujGZNsBooJFQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeEntidadesDeTeste?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sTvqwHSUEd-PrZYYt2Wrcw" name="CasoDeTeste" clientDependency="_sTvqwXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sTvqwXSUEd-PrZYYt2Wrcw" client="_sTvqwHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QtBcwNCuEduBVY0fNaQepQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/CasoDeTeste?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_QtBcwNCuEduBVY0fNaQepQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/CasoDeTeste?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sWRaUHSUEd-PrZYYt2Wrcw" name="EntidadeDeTeste" clientDependency="_sWRaUXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sWRaUXSUEd-PrZYYt2Wrcw" client="_sWRaUHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ZbsnoNCvEduBVY0fNaQepQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/EntidadeDeTeste?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_ZbsnoNCvEduBVY0fNaQepQ?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/EntidadeDeTeste?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sYp_8HSUEd-PrZYYt2Wrcw" name="FábricaDeEntidadesDeTesteComDetalhes" clientDependency="_sYp_8XSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sYp_8XSUEd-PrZYYt2Wrcw" client="_sYp_8HSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Y3_i4OhDEdungs76u-W55Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeEntidadesDeTesteComDetalhes?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Y3_i4OhDEdungs76u-W55Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeEntidadesDeTesteComDetalhes?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sbClkHSUEd-PrZYYt2Wrcw" name="FábricaDeCasosDeTeste" clientDependency="_sbClkXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sbClkXSUEd-PrZYYt2Wrcw" client="_sbClkHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_12KW0OhNEdungs76u-W55Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeCasosDeTeste?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_12KW0OhNEdungs76u-W55Q?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeCasosDeTeste?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sdk8MHSUEd-PrZYYt2Wrcw" name="EntidadeDeTesteComDetalhes" clientDependency="_sdk8MXSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sdk8MXSUEd-PrZYYt2Wrcw" client="_sdk8MHSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_9QovkASBEdySMNXiKjRqdg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/EntidadeDeTesteComDetalhes?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_9QovkASBEdySMNXiKjRqdg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/EntidadeDeTesteComDetalhes?"/>
+            </manifestation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Artifact" xmi:id="_sf9h0HSUEd-PrZYYt2Wrcw" name="FábricaDeEntidadesVirtuaisDeTeste" clientDependency="_sf9h0XSUEd-PrZYYt2Wrcw">
+            <manifestation xmi:id="_sf9h0XSUEd-PrZYYt2Wrcw" client="_sf9h0HSUEd-PrZYYt2Wrcw">
+              <supplier xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Dr5xQNOlEd6wJ56GfsH_PA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeEntidadesVirtuaisDeTeste?"/>
+              <utilizedElement xmi:type="uml:Class" href="../Praxis%20-%20Modelo%20da%20solução.emx#_Dr5xQNOlEd6wJ56GfsH_PA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/teste/comum/FábricaDeEntidadesVirtuaisDeTeste?"/>
+            </manifestation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_siWHcHSUEd-PrZYYt2Wrcw" name="Realizações" clientDependency="_siWHcXSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_siWHcXSUEd-PrZYYt2Wrcw" client="_siWHcHSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_frsAQPmGEdu4aeU3WA9KQg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Realizações?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_frsAQPmGEdu4aeU3WA9KQg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Realizações?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sk4eEHSUEd-PrZYYt2Wrcw" name="Realizações">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_sk4eEXSUEd-PrZYYt2Wrcw" name="Cadastro" clientDependency="_sk4eEnSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_sk4eEnSUEd-PrZYYt2Wrcw" client="_sk4eEXSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_DZLzwP5DEduUZtC1ksb11g?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Realizações/Cadastro?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_DZLzwP5DEduUZtC1ksb11g?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Realizações/Cadastro?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_snRDsHSUEd-PrZYYt2Wrcw" name="Comum" clientDependency="_snaNoHSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_snaNoHSUEd-PrZYYt2Wrcw" client="_snRDsHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_hH1R0ASBEdySMNXiKjRqdg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Realizações/Comum?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_hH1R0ASBEdySMNXiKjRqdg?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Realizações/Comum?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_snaNoXSUEd-PrZYYt2Wrcw" name="Arquitetura" clientDependency="_snaNonSUEd-PrZYYt2Wrcw">
+      <manifestation xmi:id="_snaNonSUEd-PrZYYt2Wrcw" client="_snaNoXSUEd-PrZYYt2Wrcw">
+        <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_1huE4Mm6EdyK1cD-L4Txww?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_1huE4Mm6EdyK1cD-L4Txww?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura?"/>
+      </manifestation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_snj-oHSUEd-PrZYYt2Wrcw" name="Arquitetura">
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_snj-oXSUEd-PrZYYt2Wrcw" name="Comum" clientDependency="_snj-onSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_snj-onSUEd-PrZYYt2Wrcw" client="_snj-oXSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_UNuV0MnUEdyWYNG71jKkmA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura/Comum?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_UNuV0MnUEdyWYNG71jKkmA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura/Comum?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_snj-o3SUEd-PrZYYt2Wrcw" name="Caixa preta" clientDependency="_snj-pHSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_snj-pHSUEd-PrZYYt2Wrcw" client="_snj-o3SUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_V7jJkMnUEdyWYNG71jKkmA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura/Caixa%20preta?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_V7jJkMnUEdyWYNG71jKkmA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura/Caixa%20preta?"/>
+        </manifestation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_sntvoHSUEd-PrZYYt2Wrcw" name="Caixa cinza" clientDependency="_sntvoXSUEd-PrZYYt2Wrcw">
+        <manifestation xmi:id="_sntvoXSUEd-PrZYYt2Wrcw" client="_sntvoHSUEd-PrZYYt2Wrcw">
+          <supplier xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_XWJfUMnUEdyWYNG71jKkmA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura/Caixa%20cinza?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Praxis%20-%20Modelo%20da%20solução.emx#_XWJfUMnUEdyWYNG71jKkmA?Praxis%20-%20Modelo%20da%20solução/Visão%20de%20testes/Arquitetura/Caixa%20cinza?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="_kzeXQXSUEd-PrZYYt2Wrcw">
+    <eAnnotations xmi:id="_k00bEHSUEd-PrZYYt2Wrcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_k00bEXSUEd-PrZYYt2Wrcw">
+    <eAnnotations xmi:id="_k0-MEHSUEd-PrZYYt2Wrcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_k0-MEXSUEd-PrZYYt2Wrcw">
+    <eAnnotations xmi:id="_k0-MEnSUEd-PrZYYt2Wrcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Model>

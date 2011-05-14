@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Especificação de Teste.xsl"?>
+<Q1:especificaçãoDeTeste
+	xmlns:Q1="http://www.praxis.org/especificaçãoDeTeste"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.praxis.org/especificaçãoDeTeste ../Especificação de Teste.xsd ">
+	<título>Gestão de Cadastro com Detalhes</título>
+	<aspectosATestar>
+		<aspectoATestar>
+			<requisito>
+				Caso de uso abstrato Gestão de Cadastro com Detalhes
+			</requisito>
+			<comentário>
+				Especializa o teste da Gestão de Cadastro.
+			</comentário>
+		</aspectoATestar>
+	</aspectosATestar>
+	<abordagens>
+		<abordagem>
+			<aspecto>Herda do teste Gestão de Cadastro.</aspecto>
+			<detalhes>-</detalhes>
+		</abordagem>
+	</abordagens>
+	<critériosDeCompletezaESucesso>
+		<critério>
+			Todos os Itens de Detalhe incluídos aparecem no Painel de
+			Itens da Tela de Edição de Item.
+		</critério>
+		<critério>
+			O cancelamento da Inclusão de Item de Detalhe deixa
+			inalterado o Painel de Itens da Tela de Edição de Item.
+		</critério>
+		<critério>
+			Nenhum Item de Detalhe excluído aparece no Painel de Itens
+			da Tela de Edição de Item.
+		</critério>
+	</critériosDeCompletezaESucesso>
+	<casosDeTeste></casosDeTeste>
+	<espéciesDeCasoDeTeste>
+		<espécie>
+			<título>
+				Listagem de Itens Cadastrados com recuperação
+			</título>
+			<identificador>GCD-LICR</identificador>
+			<aspectosEspecíficos>
+				Correção da listagem dos Itens Cadastrados e da seleção
+				de Item; conformidade do tempo para pesquisa com o
+				respectivo requisito não-funcional (Tempo de resposta
+				para pesquisas no banco de dados).
+			</aspectosEspecíficos>
+			<entradas></entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%descritores%</campo>
+					<valor>%descritores de itens%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Logo após abertura</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>COM SELEÇÃO</valor>
+					<ocorrências>Após seleção de um Item</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item Mestre</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item Mestre</tela>
+					<campo>%estado%</campo>
+					<valor>INICIAL</valor>
+					<ocorrências>Logo após abertura</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Seleção de Item</tela>
+					<campo>%descritores%</campo>
+					<valor>%itens de detalhe%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Seleção de Item</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Logo após abertura</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-RIC, GCD-VD</procedimentos>
+			<dependências>
+				O banco de dados de teste deve estar no estado INICIAL.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Inclusão de Item válido não cadastrado</título>
+			<identificador>GCD-IIVNC</identificador>
+			<aspectosEspecíficos>
+				Processamento correto de inclusão de Item válido não
+				cadastrado com Detalhes
+			</aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item Mestre</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Seleção de Item</tela>
+					<campo>%descritores%</campo>
+					<valor>%item de detalhe%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item Mestre</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-IICV, GCD-ID</procedimentos>
+			<dependências>
+				O banco de dados de teste deve estar no estado INICIAL.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Alteração de Item válido já cadastrado</título>
+			<identificador>GCD-AIVJC</identificador>
+			<aspectosEspecíficos>
+				Processamento correto de alteração de Item válido já
+				cadastrado
+			</aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item Mestre</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Seleção de Item</tela>
+					<campo>%descritores%</campo>
+					<valor>%item de detalhe%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-AVIC, GCD-ID, GCD-ED</procedimentos>
+			<dependências>
+				O banco de dados de teste deve ter exatamente um Item
+				com a %chave de item não cadastrado% e nenhum com a
+				%chave de item alterado%. Por exemplo, pode ter sido
+				executado o caso de teste Inclusão de Item válido não
+				cadastrado GC-IIVNC).
+			</dependências>
+		</espécie>
+	</espéciesDeCasoDeTeste>
+</Q1:especificaçãoDeTeste>

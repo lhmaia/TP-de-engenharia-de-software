@@ -1,0 +1,7 @@
+#Mon Apr 11 11:20:18 BRT 2011
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+com.ibm.developerWorks.master=true
+expression=intera\u00e7\u00e3o

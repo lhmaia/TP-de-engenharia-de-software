@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Especificação de Teste.xsl"?>
+<Q1:especificaçãoDeTeste
+	xmlns:Q1="http://www.praxis.org/especificaçãoDeTeste"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.praxis.org/especificaçãoDeTeste ../Especificação de Teste.xsd ">
+	<título>Gestão de Cadastro</título>
+	<aspectosATestar>
+		<aspectoATestar>
+			<requisito>
+				Caso de uso abstrato Gestão de Cadastro
+			</requisito>
+			<comentário>
+				Testa a listagem de Itens Cadastrados e a seleção, a
+				inclusão, a alteração e a exclusão de um Item
+				Cadastrado.
+			</comentário>
+		</aspectoATestar>
+		<aspectoATestar>
+			<requisito>
+				Requisito não-funcional Proteção contra perda de dados
+			</requisito>
+			<comentário>
+				Verifica se, nas ações que possam causar perda de dados, 
+				é emitida mensagem de confirmação.
+			</comentário>
+		</aspectoATestar>
+	</aspectosATestar>
+	<abordagens>
+		<abordagem>
+			<aspecto>Restauração</aspecto>
+			<detalhes>
+				O teste pode deixar o banco de dados alterado. Portanto,
+				é necessário, a seu final, restaurar o banco de dados ao
+				estado INICIAL. Para a restauração, deve ser executado o
+				procedimento recomendado na informação de gestão de
+				configurações do código.
+			</detalhes>
+		</abordagem>
+		<abordagem>
+			<aspecto>Precondição do caso</aspecto>
+			<detalhes>
+				Um caso de teste pode, como parte de sua precondição,
+				exigir a presença de um %objeto requerido%, a ausência
+				de um %objeto proibido%, ou ambos. Eles são
+				identificados nos respectivos campos do caso de teste
+				concreto. Quando um desses campos está em branco no caso
+				de teste concreto, a respectiva condição não é
+				aplicável.
+			</detalhes>
+		</abordagem>
+		<abordagem>
+			<aspecto>Ordem de execução</aspecto>
+			<detalhes>
+				A ordem em que os casos de teste concretos são
+				apresentados é sua ordem normal de execução, que é
+				escolhida para garantir as precondições dos casos na
+				execução manual. Em certos ambientes de teste
+				automatizado, como o JUnit, a ordem de execução não é
+				garantida, e as precondições devem ser explicitamente
+				estabelecidas pelos scripts de teste.
+			</detalhes>
+		</abordagem>
+	</abordagens>
+	<critériosDeCompletezaESucesso>
+		<critério>
+			Todos os Itens Cadastrados são recuperados corretamente,
+			conforme mostrado na Tela de Gestão de Itens e, para um
+			exemplo, na Tela de Edição de Item.
+		</critério>
+		<critério>
+			Todos os Itens Cadastrados válidos incluídos são localizados
+			com campos corretos, conforme mostrado na Tela de Gestão de
+			Itens e na Tela de Edição de Item.
+		</critério>
+		<critério>
+			Todos os Itens Cadastrados excluídos são corretamente
+			eliminados do banco de dados, conforme mostrado na Tela de
+			Gestão de Itens.
+		</critério>
+		<critério>
+			Todos os Itens Cadastrados alterados de forma válida são
+			localizados com campos corretos, conforme mostrado na Tela
+			de Gestão de Itens e na Tela de Edição de Item.
+		</critério>
+		<critério>
+			Nos casos de exceção, são exibidas as mensagens corretas.
+		</critério>
+		<critério>
+			Após cada evento relevante, a interface vai para o estado
+			correto.
+		</critério>
+	</critériosDeCompletezaESucesso>
+	<casosDeTeste></casosDeTeste>
+	<espéciesDeCasoDeTeste>
+		<espécie>
+			<título>
+				Listagem de Itens Cadastrados com recuperação
+			</título>
+			<identificador>GC-LICR</identificador>
+			<aspectosEspecíficos>Correção da listagem dos Itens Cadastrados e da seleção de Item; conformidade do tempo para pesquisa com o respectivo requisito não-funcional (Tempo de resposta para pesquisas no banco de dados). </aspectosEspecíficos>
+			<entradas></entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%descritores%</campo>
+					<valor>%descritores de itens%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Logo após abertura</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>COM SELEÇÃO</valor>
+					<ocorrências>Após seleção de um item</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%estado%</campo>
+					<valor>INICIAL</valor>
+					<ocorrências>Logo após abertura</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-RIC</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Inclusão de Item inválido</título>
+			<identificador>GC-III</identificador>
+			<aspectosEspecíficos>
+				Processamento correto de inclusão de Item inválido
+			</aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%mensagem%</campo>
+					<valor>%mensagem esperada%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%estado%</campo>
+					<valor>ALTERADA</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-III</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Inclusão de Item já cadastrado</título>
+			<identificador>GC-IIJC</identificador>
+			<aspectosEspecíficos>
+				Processamento correto de inclusão de Item já cadastrado
+			</aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item já cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%mensagem%</campo>
+					<valor>%mensagem esperada%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%estado%</campo>
+					<valor>ALTERADA</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item já cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-III</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Inclusão de Item válido não cadastrado</título>
+			<identificador>GC-IIVNC</identificador>
+			<aspectosEspecíficos>Processamento correto de inclusão válida de Item não cadastrado.</aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-IICV</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Alteração inválida de Item Cadastrado</título>
+			<identificador>GC-AIIC</identificador>
+			<aspectosEspecíficos>Processamento correto de alteração inválida de Item Cadastrado </aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%mensagem%</campo>
+					<valor>%mensagem esperada%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%estado%</campo>
+					<valor>ALTERADA</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-AIIC</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Alteração de Item válido já cadastrado</título>
+			<identificador>GC-AIVJC</identificador>
+			<aspectosEspecíficos>Processamento correto de alteração de Item válido já cadastrado </aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Edição de Item</tela>
+					<campo>%todos%</campo>
+					<valor>%item de teste%</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item não cadastrado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-AVIC</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+		<espécie>
+			<título>Exclusão de Item cadastrado</título>
+			<identificador>GC-EIC</identificador>
+			<aspectosEspecíficos>
+				Processamento correto de exclusão de Item cadastrado
+			</aspectosEspecíficos>
+			<entradas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Exatamente uma</ocorrências>
+				</elementoDeDado>
+			</entradas>
+			<saídasEsperadas>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%chave%</campo>
+					<valor>%chave de item alterado%</valor>
+					<ocorrências>Nenhuma</ocorrências>
+				</elementoDeDado>
+				<elementoDeDado>
+					<tela>Gestão de Itens</tela>
+					<campo>%estado%</campo>
+					<valor>SEM SELEÇÃO</valor>
+					<ocorrências>Não aplicável</ocorrências>
+				</elementoDeDado>
+			</saídasEsperadas>
+			<ambiente>Banco de dados de teste.</ambiente>
+			<procedimentos>GC-EIC</procedimentos>
+			<dependências>
+				As precondições do caso devem estar garantidas.
+			</dependências>
+		</espécie>
+	</espéciesDeCasoDeTeste>
+</Q1:especificaçãoDeTeste>

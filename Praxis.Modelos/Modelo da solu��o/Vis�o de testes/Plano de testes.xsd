@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.praxis.org/planoDeTestes"
+	elementFormDefault="unqualified" attributeFormDefault="unqualified"
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:Q1="http://www.praxis.org/planoDeTestes">
+	
+	<element name="planoDeTestes">
+		<complexType>
+			<sequence>
+				<element name="título" type="string"></element>
+				<element name="itensDaIntrodução" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Seção de introdução. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="item" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Item da introdução.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="nome" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Nome do item.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="descrição" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Descrição do item.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="referências" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Referências aplicáveis. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="itemDeReferência" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Item de referência.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="tipo" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Tipo do material.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="referência" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Referência
+													bibliográfica.
+													</documentation>
+											</annotation>
+											<complexType>
+												<element name="ref1" type="string"
+													maxOccurs="1" minOccurs="1">
+												</element>
+												<element name="ref2" type="string"
+													maxOccurs="1" minOccurs="0">
+												</element>
+												<element name="ref3" type="string"
+													maxOccurs="1" minOccurs="0">
+												</element>
+											</complexType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="itensATestar" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Itens sob teste, cobertos pelo plano.
+							</documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="itemATestar" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Item a testar. </documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="nome" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Nome do item.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="descrição" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Descrição do item.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="aspectosATestar" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Aspectos dos itens sob testes que serão
+							verificados. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="aspectoATestar" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada aspecto a testar.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="aspecto" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Identificação do
+													aspecto. </documentation>
+											</annotation>
+										</element>
+										<element name="especificação"
+											type="string" maxOccurs="1"
+											minOccurs="1">
+											<annotation>
+												<documentation> Referência ao local
+													onde o aspecto é especificado.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="aspectosQueNãoSerãoTestados" maxOccurs="1"
+					minOccurs="1">
+					<annotation>
+						<documentation> Aspectos significativos que não serão testados
+							explicitamente. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="aspectoQueNãoSeráTestado"
+								maxOccurs="unbounded" minOccurs="1">
+								<annotation>
+									<documentation> Cada aspecto que não será testado.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="aspecto" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Identificação do
+													aspecto. </documentation>
+											</annotation>
+										</element>
+										<element name="motivo" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Motivo pelo qual o
+													aspecto não será testado.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="abordagens" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Opções metodológicas que aplicáveis ao
+							conjunto dos testes do plano. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="abordagem" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada uma das opções
+										metodológicas. </documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="nome" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Nome que identifica
+													a abordagem. </documentation>
+											</annotation>
+										</element>
+										<element name="detalhes" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Detalhes da
+													abordagem. </documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="critérios" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Critérios aplicáveis à condução do teste, como
+							condições de completeza, sucesso, suspensão e retomada.
+							</documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="critério" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada uma dos critérios.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="tipo" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Tipo do critério.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="descrição" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Descrição do
+													critério. </documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="agenda" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Lista das tarefas de teste, com a respectiva
+							localização ao longo das iterações. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="entrada" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada uma das entradas da agenda.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="aspecto" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Aspecto a ser
+													testado. </documentation>
+											</annotation>
+										</element>
+										<element name="tipo" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Tipo de teste a ser
+													executado. </documentation>
+											</annotation>
+										</element>
+										<element name="iteração" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Iteração em que o
+													teste deve ser executado.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="ambiente" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Hardware e software das configurações usadas
+							para o conjunto dos testes. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="itemDeAmbiente" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada um dos itens do ambiente.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="natureza" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Natureza do item de
+													ambiente. </documentation>
+											</annotation>
+										</element>
+										<element name="descrição" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Descrição do item de
+													ambiente. </documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="responsabilidades" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Responsabilidades de cada um dos papéis
+							participantes dos testes. </documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="responsabilidade" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada um dos itens do
+										responsabilidades. </documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="papel" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Papel responsável.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="descrição" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Descrição da
+													responsabilidade.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="riscos" maxOccurs="1" minOccurs="1">
+					<annotation>
+						<documentation> Riscos e contingências aplicáveis aos testes.
+							</documentation>
+					</annotation>
+					<complexType>
+						<sequence>
+							<element name="risco" maxOccurs="unbounded"
+								minOccurs="1">
+								<annotation>
+									<documentation> Cada um dos riscos.
+										</documentation>
+								</annotation>
+								<complexType>
+									<sequence>
+										<element name="natureza" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Natureza do risco.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="gravidade" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Gravidade do risco.
+													</documentation>
+											</annotation>
+										</element>
+										<element name="probabilidade"
+											type="string" maxOccurs="1"
+											minOccurs="1">
+											<annotation>
+												<documentation> Probabilidade do
+													risco. </documentation>
+											</annotation>
+										</element>
+										<element name="impacto" type="string"
+											maxOccurs="1" minOccurs="1">
+											<annotation>
+												<documentation> Impacto previsto do
+													risco. </documentation>
+											</annotation>
+										</element>
+										<element name="contramedidas"
+											type="string" maxOccurs="1"
+											minOccurs="1">
+											<annotation>
+												<documentation> Contramedidas
+													adotadas para o risco.
+													</documentation>
+											</annotation>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				
+			</sequence>
+		</complexType>
+	</element>
+	
+</schema>

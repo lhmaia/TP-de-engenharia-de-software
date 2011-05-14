@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_QFjq4GdPEd6qGMZeZOZeDw" name="Mapeador Modelo-Testes">
+  <packagedElement xmi:type="uml:Package" xmi:id="_QFjq52dPEd6qGMZeZOZeDw" name="Visão de testes">
+    <packagedElement xmi:type="uml:Package" xmi:id="_QFjq6GdPEd6qGMZeZOZeDw" name="Estrutura">
+      <packagedElement xmi:type="uml:Package" xmi:id="_QFjq6WdPEd6qGMZeZOZeDw" name="caixapreta">
+        <packagedElement xmi:type="uml:Package" xmi:id="_QFjq6mdPEd6qGMZeZOZeDw" name="compra">
+          <packagedElement xmi:type="uml:Package" xmi:id="_QFjq62dPEd6qGMZeZOZeDw" name="fornecedor">
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_QFtb4GdPEd6qGMZeZOZeDw" name="ConferenteDeGestãoDeFornecedores" clientDependency="_QFtb4WdPEd6qGMZeZOZeDw">
+              <manifestation xmi:id="_QFtb4WdPEd6qGMZeZOZeDw" client="_QFtb4GdPEd6qGMZeZOZeDw">
+                <supplier xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tmmW1dYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/ConferenteDeGestãoDeFornecedores?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tmmW1dYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/ConferenteDeGestãoDeFornecedores?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_QIY8cGdPEd6qGMZeZOZeDw" name="ConstantesDeGestãoDeFornecedores" clientDependency="_QIY8cWdPEd6qGMZeZOZeDw">
+              <manifestation xmi:id="_QIY8cWdPEd6qGMZeZOZeDw" client="_QIY8cGdPEd6qGMZeZOZeDw">
+                <supplier xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tTEQFdYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/ConstantesDeGestãoDeFornecedores?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tTEQFdYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/ConstantesDeGestãoDeFornecedores?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_QKxiEGdPEd6qGMZeZOZeDw" name="InspetorDaTelaDeEdiçãoDeFornecedor" clientDependency="_QK6sAGdPEd6qGMZeZOZeDw">
+              <manifestation xmi:id="_QK6sAGdPEd6qGMZeZOZeDw" client="_QKxiEGdPEd6qGMZeZOZeDw">
+                <supplier xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tc1QFdYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/InspetorDaTelaDeEdiçãoDeFornecedor?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tc1QFdYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/InspetorDaTelaDeEdiçãoDeFornecedor?"/>
+              </manifestation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Artifact" xmi:id="_QNdCoGdPEd6qGMZeZOZeDw" name="TesteGestãoDeFornecedores" clientDependency="_QNdCoWdPEd6qGMZeZOZeDw">
+              <manifestation xmi:id="_QNdCoWdPEd6qGMZeZOZeDw" client="_QNdCoGdPEd6qGMZeZOZeDw">
+                <supplier xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tmmQFdYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/TesteGestãoDeFornecedores?"/>
+                <utilizedElement xmi:type="uml:Class" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_-tmmQFdYEd6XCsJzNdNizg?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta/compra/fornecedor/TesteGestãoDeFornecedores?"/>
+              </manifestation>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Artifact" xmi:id="_5gW7cGdVEd6DT48UekTC3w" name="caixapreta" clientDependency="_5gW7cWdVEd6DT48UekTC3w" fileName="com.uhackers.merci.teste.caixapreta">
+        <manifestation xmi:id="_5gW7cWdVEd6DT48UekTC3w" client="_5gW7cGdVEd6DT48UekTC3w">
+          <supplier xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC2B924010E?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta?"/>
+          <utilizedElement xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_3784E4B500283DC2B924010E?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura/caixapreta?"/>
+        </manifestation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_e783YGdPEd6qGMZeZOZeDw" name="Estrutura" clientDependency="_e783YWdPEd6qGMZeZOZeDw" fileName="">
+      <manifestation xmi:id="_e783YWdPEd6qGMZeZOZeDw" client="_e783YGdPEd6qGMZeZOZeDw">
+        <supplier xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_Xbm-8ASTEdy0ua0dmMYZog?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura?"/>
+        <utilizedElement xmi:type="uml:Package" href="../Modelo%20da%20solução/Merci%20-%20Modelo%20da%20solução.emx#_Xbm-8ASTEdy0ua0dmMYZog?Merci%20-%20Modelo%20da%20solução/Visão%20de%20testes/Estrutura?"/>
+      </manifestation>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="_QFjq4WdPEd6qGMZeZOZeDw">
+    <eAnnotations xmi:id="_QFjq4mdPEd6qGMZeZOZeDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_QFjq42dPEd6qGMZeZOZeDw">
+    <eAnnotations xmi:id="_QFjq5GdPEd6qGMZeZOZeDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_QFjq5WdPEd6qGMZeZOZeDw">
+    <eAnnotations xmi:id="_QFjq5mdPEd6qGMZeZOZeDw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Model>
